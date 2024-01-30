@@ -4,18 +4,10 @@ import {EasyTable, FlexH, FlexV} from "@/components/common";
 import {
     Text,
     Image,
-    AspectRatio,
-    TableContainer,
-    Th,
-    Tr,
-    Thead,
-    Table,
-    Tbody,
-    Td,
     Box,
     Divider
 } from "@chakra-ui/react";
-import {Oswald, Roboto} from "next/font/google";
+import {Roboto} from "next/font/google";
 import terminalHeads from "@/../public/data/terminal_heads.json";
 
 const roboto = Roboto({weight: "100", subsets: ["latin"]});

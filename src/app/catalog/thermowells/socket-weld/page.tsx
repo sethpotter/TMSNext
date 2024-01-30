@@ -12,18 +12,7 @@ const robotoBold = Roboto({weight: "400", subsets: ["latin"]});
 
 export default function Page() {
 
-    const thermowell = thermowells["straight_barstock"];
-
-    const pressureRating = {
-        "Material": ["Brass", "Carbon Steel", "304SS", "316SS", "Monel"],
-        "70 °F": ["5000", "5200", "7000", "7000", "6500"],
-        "200 °F": ["4200", "5000", "6200", "7000", "6000"],
-        "400 °F": ["1000", "4800", "5600", "6400", "5400"],
-        "600 °F": ["-", "4600", "5400", "6200", "5300"],
-        "800 °F": ["-", "3500", "5200", "6100", "5200"],
-        "1000 °F": ["-", "1500", "4500", "5100", "1500"],
-        "1200 °F": ["-", "-", "1650", "2500", "-"],
-    };
+    const thermowell = thermowells["socket_weld"];
 
     const getTable = () => {
         return {
@@ -53,8 +42,6 @@ export default function Page() {
 
     const getParameters = () => {
         const sheath_material = parameters["sheath_material"];
-        const plug_and_chain = parameters["plug_and_chain"];
-        plug_and_chain.name = "Plug and Chain (Optional)";
         return (
             <FlexH justifyContent="space-between">
                 <FlexV gap={3}>
@@ -73,12 +60,8 @@ export default function Page() {
                         <Text fontWeight="600">T Length - Specify In Inches</Text>
                         <Text>
                             Represented by a number. Specify the length &quot;T&quot;
-                            <br/>
-                            T Length is standard unless specified otherwise.
-                            <br/>
                         </Text>
                     </FlexV>
-                    {displayParameter(plug_and_chain)}
                 </FlexV>
             </FlexH>
         );
@@ -99,14 +82,14 @@ export default function Page() {
                             <Image width="500px"
                                    height="200px"
                                    src={thermowell.image}
-                                   style={{filter: "contrast(200%) brightness(105%)"}}
+                                   style={{filter: "contrast(120%) brightness(100%)"}}
                                    alt=""
                                    objectFit="contain"
                                    mt={2}
                             />
                             <FlexV justifyContent="center" alignItems="center" textAlign="center">
                                 <Text><b>Example Order</b></Text>
-                                <Text fontSize="20px"><u>103S</u> - <u>P</u> - <u>6</u> - <u>1.75</u> (-SP)</Text>
+                                <Text fontSize="20px"><u>501</u> - <u>R</u> - <u>7.5</u> - <u>4.75</u></Text>
                                 <Text>The dashes <b>—</b> separate the part parameters.</Text>
                             </FlexV>
                         </FlexH>
@@ -123,13 +106,6 @@ export default function Page() {
                             </FlexV>
                             <Divider m={4}/>
                             {getParameters()}
-                            <Divider m={4} borderWidth="1px" borderColor="black" />
-                            <FlexV>
-                                <Text mb={2} fontWeight="600" fontSize="18px">Pressure/Temperature Rating - Pounds (Lbs.) Per Square Inch</Text>
-                                <FlexH justifyContent="center">
-                                    <EasyTable table={pressureRating} px={4} py={1}/>
-                                </FlexH>
-                            </FlexV>
                         </FlexV>
                     </FlexV>
                 </FlexV>

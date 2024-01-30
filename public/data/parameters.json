@@ -438,5 +438,15 @@
     "description": "",
     "type": "checkbox",
     "value": "T"
+  },
+  "plug_and_chain": {
+    "name": "Plug and Chain",
+    "alias": [],
+    "description": "",
+    "type": "dictionary",
+    "value": {
+      "Brass": "BP",
+      "Stainless Steel": "SP"
+    }
   }
 }

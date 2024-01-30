@@ -12,24 +12,28 @@ const robotoBold = Roboto({weight: "400", subsets: ["latin"]});
 
 export default function Page() {
 
-    const thermowell = thermowells["straight_barstock"];
-
-    const pressureRating = {
-        "Material": ["Brass", "Carbon Steel", "304SS", "316SS", "Monel"],
-        "70 °F": ["5000", "5200", "7000", "7000", "6500"],
-        "200 °F": ["4200", "5000", "6200", "7000", "6000"],
-        "400 °F": ["1000", "4800", "5600", "6400", "5400"],
-        "600 °F": ["-", "4600", "5400", "6200", "5300"],
-        "800 °F": ["-", "3500", "5200", "6100", "5200"],
-        "1000 °F": ["-", "1500", "4500", "5100", "1500"],
-        "1200 °F": ["-", "-", "1650", "2500", "-"],
-    };
+    const thermowell = thermowells["tubes_flanged"];
 
     const getTable = () => {
         return {
             "Part Number": thermowell["parts"],
             ...thermowell["fields"]
         }
+    }
+
+    const getFlangeTable = () => {
+        const flange_code = parameters["flange_code"];
+        const flange_table = {
+            "Size" : Object.keys(flange_code.value.Size),
+            "A" : Object.values(flange_code.value.Size),
+            "Rating" : Object.keys(flange_code.value.Rating).slice(0, -1),
+            "B" : Object.values(flange_code.value.Rating).slice(0, -1),
+            "Facing" : Object.keys(flange_code.value.Facing),
+            "C" : Object.values(flange_code.value.Facing),
+        }
+        return (
+            <EasyTable table={flange_table} px={4} py={1}/>
+        )
     }
 
     const displayParameter = (parameter: any) => {
@@ -53,12 +57,20 @@ export default function Page() {
 
     const getParameters = () => {
         const sheath_material = parameters["sheath_material"];
-        const plug_and_chain = parameters["plug_and_chain"];
-        plug_and_chain.name = "Plug and Chain (Optional)";
         return (
             <FlexH justifyContent="space-between">
                 <FlexV gap={3}>
                     {displayParameter(sheath_material)}
+                    <FlexV flexGrow={0}>
+                        <Text fontWeight="600">Flange Code</Text>
+                        <Text>
+                            Create a Flange Code using the table above.
+                            <br/>
+                            Example: <b>BVF</b> - Size: 1", Rating: 300 LB, Facing: Flat Face
+                        </Text>
+                    </FlexV>
+                </FlexV>
+                <FlexV gap={3}>
                     <FlexV flexGrow={0}>
                         <Text fontWeight="600">Insertion Length &quot;U&quot; - Specify In Inches</Text>
                         <Text>
@@ -67,18 +79,12 @@ export default function Page() {
                             of the insert in inches.
                         </Text>
                     </FlexV>
-                </FlexV>
-                <FlexV gap={3}>
                     <FlexV flexGrow={0}>
                         <Text fontWeight="600">T Length - Specify In Inches</Text>
                         <Text>
                             Represented by a number. Specify the length &quot;T&quot;
-                            <br/>
-                            T Length is standard unless specified otherwise.
-                            <br/>
                         </Text>
                     </FlexV>
-                    {displayParameter(plug_and_chain)}
                 </FlexV>
             </FlexH>
         );
@@ -99,14 +105,14 @@ export default function Page() {
                             <Image width="500px"
                                    height="200px"
                                    src={thermowell.image}
-                                   style={{filter: "contrast(200%) brightness(105%)"}}
+                                   style={{filter: "contrast(110%) brightness(110%)"}}
                                    alt=""
                                    objectFit="contain"
                                    mt={2}
                             />
                             <FlexV justifyContent="center" alignItems="center" textAlign="center">
                                 <Text><b>Example Order</b></Text>
-                                <Text fontSize="20px"><u>103S</u> - <u>P</u> - <u>6</u> - <u>1.75</u> (-SP)</Text>
+                                <Text fontSize="20px"><u>401</u> - <u>R</u> - <u>CUR</u> - <u>12</u> - <u>3</u></Text>
                                 <Text>The dashes <b>—</b> separate the part parameters.</Text>
                             </FlexV>
                         </FlexH>
@@ -117,19 +123,24 @@ export default function Page() {
                         </FlexH>
                         <FlexV>
                             <FlexV>
-                                <FlexH justifyContent="center">
+                                <FlexH gap={5} justifyContent="center">
                                     <EasyTable table={getTable()} px={4} py={1}/>
+                                    <FlexV>
+                                        <Text mb={2} fontWeight="600" fontSize="18px">Flange Sizes and Ratings</Text>
+                                        {getFlangeTable()}
+                                    </FlexV>
                                 </FlexH>
                             </FlexV>
                             <Divider m={4}/>
                             {getParameters()}
-                            <Divider m={4} borderWidth="1px" borderColor="black" />
-                            <FlexV>
-                                <Text mb={2} fontWeight="600" fontSize="18px">Pressure/Temperature Rating - Pounds (Lbs.) Per Square Inch</Text>
-                                <FlexH justifyContent="center">
-                                    <EasyTable table={pressureRating} px={4} py={1}/>
-                                </FlexH>
-                            </FlexV>
+                            <br/>
+                            <Text>
+                                **Add "FP" After Flange Facing For Full Penetrant Weld.
+                                <br/>
+                                **Add "SF" After Flange Facing For Smooth Finish 125-250 RMS.
+                                <br/>
+                                **Other Sizes Available. Consult TMS.
+                            </Text>
                         </FlexV>
                     </FlexV>
                 </FlexV>

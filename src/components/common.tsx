@@ -30,12 +30,13 @@ const EasyTable = ({table, ...rest}: any) => {
                     {
                         keys.map((key) => {
                             const fields = table[key as keyof typeof table] as string[];
+                            const field = (i < fields.length) ? fields[i] : "";
                             return (
                                 <Td bg={(i % 2 == 0) ? "white" : "gray.100"}
                                     {...rest}
-                                    key={key+ "-" + fields[i]}
+                                    key={key+ "-" + i}
                                 >
-                                    {fields[i]}
+                                    {field}
                                 </Td>
                             )
                         })

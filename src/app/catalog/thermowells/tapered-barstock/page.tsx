@@ -12,7 +12,7 @@ const robotoBold = Roboto({weight: "400", subsets: ["latin"]});
 
 export default function Page() {
 
-    const thermowell = thermowells["straight_barstock"];
+    const thermowell = thermowells["tapered_barstock"];
 
     const pressureRating = {
         "Material": ["Brass", "Carbon Steel", "304SS", "316SS", "Monel"],
@@ -106,7 +106,7 @@ export default function Page() {
                             />
                             <FlexV justifyContent="center" alignItems="center" textAlign="center">
                                 <Text><b>Example Order</b></Text>
-                                <Text fontSize="20px"><u>103S</u> - <u>P</u> - <u>6</u> - <u>1.75</u> (-SP)</Text>
+                                <Text fontSize="20px"><u>103T</u> - <u>P</u> - <u>6</u> - <u>1.75</u> (-SP)</Text>
                                 <Text>The dashes <b>—</b> separate the part parameters.</Text>
                             </FlexV>
                         </FlexH>

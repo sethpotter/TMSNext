@@ -21,7 +21,7 @@ export const Footer = () => {
                         <Text>+1 (903) 489-1405</Text>
                     </FlexV>
                     <Button variant="ghost">
-                        <Image src="/logo.webp" alt="TMS Logo" width="72" height="64" />
+                        <Image src="/images/logo.webp" alt="TMS Logo" width="72" height="64" />
                     </Button>
                 </FlexV>
             </FlexH>
