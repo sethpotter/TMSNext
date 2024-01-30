@@ -1,0 +1,112 @@
+{
+  "compression_fitting": {
+    "name": "Compression Fitting",
+    "alias": [],
+    "description": "",
+    "image": "",
+    "parts": ["BA11", "BA12", "BA13", "BA14", "BA21", "BA22", "BA23", "BA24", "BA25", "BA26", "BA42", "BA43", "BA44", "BA45", "BA46", "BA48", "CA11", "CA12", "CA13", "CA14", "CA21", "CA22", "CA23", "CA24", "CA25", "CA26", "CA42", "CA43", "CA44", "CA45", "CA46", "CA48", "SA11", "SA12", "SA13", "SA14", "SA21", "SA22", "SA23", "SA24", "SA25", "SA26", "SA42", "SA43", "SA44", "SA45", "SA46", "SA48"],
+    "fields": {
+      "Material": ["Brass", "Brass", "Brass", "Brass", "Brass", "Brass", "Brass", "Brass", "Brass", "Brass", "Brass", "Brass", "Brass", "Brass", "Brass", "Brass", "Carbon Steel", "Carbon Steel", "Carbon Steel", "Carbon Steel", "Carbon Steel", "Carbon Steel", "Carbon Steel", "Carbon Steel", "Carbon Steel", "Carbon Steel", "Carbon Steel", "Carbon Steel", "Carbon Steel", "Carbon Steel", "Carbon Steel", "Carbon Steel", "Stainless Steel", "Stainless Steel", "Stainless Steel", "Stainless Steel", "Stainless Steel", "Stainless Steel", "Stainless Steel", "Stainless Steel", "Stainless Steel", "Stainless Steel", "Stainless Steel", "Stainless Steel", "Stainless Steel", "Stainless Steel", "Stainless Steel", "Stainless Steel"],
+      "Thread": ["1/8\" NPT", "1/8\" NPT", "1/8\" NPT", "1/8\" NPT", "1/4\" NPT", "1/4\" NPT", "1/4\" NPT", "1/4\" NPT", "1/4\" NPT", "1/4\" NPT", "1/2\" NPT", "1/2\" NPT", "1/2\" NPT", "1/2\" NPT", "1/2\" NPT", "1/2\" NPT", "1/8\" NPT", "1/8\" NPT", "1/8\" NPT", "1/8\" NPT", "1/4\" NPT", "1/4\" NPT", "1/4\" NPT", "1/4\" NPT", "1/4\" NPT", "1/4\" NPT", "1/2\" NPT", "1/2\" NPT", "1/2\" NPT", "1/2\" NPT", "1/2\" NPT", "1/2\" NPT", "1/8\" NPT", "1/8\" NPT", "1/8\" NPT", "1/8\" NPT", "1/4\" NPT", "1/4\" NPT", "1/4\" NPT", "1/4\" NPT", "1/4\" NPT", "1/4\" NPT", "1/2\" NPT", "1/2\" NPT", "1/2\" NPT", "1/2\" NPT", "1/2\" NPT", "1/2\" NPT"],
+      "Diameter": ["1/16\"", "1/8\"", "3/16\"", "1/4\"", "1/16\"", "1/8\"", "3/16\"", "1/4\"", "5/16\"", "3/8\"", "1/8\"", "3/16\"", "1/4\"", "5/16\"", "3/8\"", "1/2\"", "1/16\"", "1/8\"", "3/16\"", "1/4\"", "1/16\"", "1/8\"", "3/16\"", "1/4\"", "5/16\"", "3/8\"", "1/8\"", "3/16\"", "1/4\"", "5/16\"", "3/8\"", "1/2\"", "1/16\"", "1/8\"", "3/16\"", "1/4\"", "1/16\"", "1/8\"", "3/16\"", "1/4\"", "5/16\"", "3/8\"", "1/8\"", "3/16\"", "1/4\"", "5/16\"", "3/8\"", "1/2\""]
+    },
+    "parameters": [
+      "teflon_ferrule"
+    ]
+  },
+  "cord_grip_connector": {
+    "name": "Cord Grip Connector",
+    "alias": [],
+    "description": "",
+    "image": "",
+    "parts": ["G3", "G4", "G5", "G6"],
+    "fields": {
+      "Wire Diameter": [".125 to .250", ".250 to .375", ".125 to .250", ".250 to .375"],
+      "Thread Size": ["1/2\" NPT", "1/2\" NPT", "3/4\" NPT", "3/4\" NPT"]
+    }
+  },
+  "two_pin_connector": {
+    "name": "2-Pin Connector",
+    "alias": [],
+    "description": "",
+    "image": "",
+    "parts": ["MP1J", "MP1K", "MP1T", "MP1R", "MP1E", "MP1N", "MP1U", "MP4J", "MP4K", "MP4T", "MP4R", "MP4E", "MP4N", "MP4U", "FJ1J", "FJ1K", "FJ1T", "FJ1R", "FJ1E", "FJ1N", "FJ1U"],
+    "fields": {
+      "Type": ["Solid Pin Plug", "Solid Pin Plug", "Solid Pin Plug", "Solid Pin Plug", "Solid Pin Plug", "Solid Pin Plug", "Solid Pin Plug", "Hollow Pin Plug", "Hollow Pin Plug", "Hollow Pin Plug", "Hollow Pin Plug", "Hollow Pin Plug", "Hollow Pin Plug", "Hollow Pin Plug", "Jack", "Jack", "Jack", "Jack", "Jack", "Jack", "Jack"],
+      "Color Code": ["Orange", "Yellow", "Blue", "Green", "Purple", "Orange", "White", "Orange", "Yellow", "Blue", "Green", "Purple", "Orange", "White", "Orange", "Yellow", "Blue", "Green", "Purple", "Orange", "White"],
+      "ANSI Calibration": ["J", "K", "T", "R or S", "E", "N", "U", "J", "K", "T", "R or S", "E", "N", "U", "J", "K", "T", "R or S", "E", "N", "U"]
+    }
+  },
+  "high_temperature_two_pin_connector": {
+    "name": "High Temperature 2-Pin Connector",
+    "alias": [],
+    "description": "",
+    "image": "",
+    "parts": ["MP3J", "MP3K", "MP3T", "MP3R", "MP3E", "MP3N", "MP3U", "MP4J", "MP4K", "MP4T", "MP4R", "MP4E", "MP4N", "MP4U", "FJ2J", "FJ2K", "FJ2T", "FJ2R", "FJ2E", "FJ2N", "FJ2U"],
+    "fields": {
+      "Type": ["Solid Pin Plug", "Solid Pin Plug", "Solid Pin Plug", "Solid Pin Plug", "Solid Pin Plug", "Solid Pin Plug", "Solid Pin Plug", "Hollow Pin Plug", "Hollow Pin Plug", "Hollow Pin Plug", "Hollow Pin Plug", "Hollow Pin Plug", "Hollow Pin Plug", "Hollow Pin Plug", "Jack", "Jack", "Jack", "Jack", "Jack", "Jack", "Jack"],
+      "Color Code": ["Brown"],
+      "ANSI Calibration": ["J", "K", "T", "R or S", "E", "N", "U", "J", "K", "T", "R or S", "E", "N", "U", "J", "K", "T", "R or S", "E", "N", "U"]
+    }
+  },
+  "miniature_two_pin_connector": {
+    "name": "Miniature 2-Pin Connector",
+    "alias": [],
+    "description": "",
+    "image": "",
+    "parts": ["MP7J", "MP7K", "MP7T", "MP7R", "MP7E", "MP7N", "MP7U", "FJ4J", "FJ4K", "FJ4T", "FJ4R", "FJ4E", "FJ4N", "FJ4U"],
+    "fields": {
+      "Type": ["2 Pin Plug", "2 Pin Plug", "2 Pin Plug", "2 Pin Plug", "2 Pin Plug", "2 Pin Plug", "2 Pin Plug", "2 Pin Jack", "2 Pin Jack", "2 Pin Jack", "2 Pin Jack", "2 Pin Jack", "2 Pin Jack", "2 Pin Jack"],
+      "Color Code": ["Orange", "Yellow", "Blue", "Green", "Purple", "Orange", "White", "Orange", "Yellow", "Blue", "Green", "Purple", "Orange", "White"],
+      "ANSI Calibration": ["J", "K", "T", "R or S", "E", "N", "U", "J", "K", "T", "R or S", "E", "N", "U"]
+    }
+  },
+  "high_temperature_miniature_two_pin_connector": {
+    "name": "High Temperature Miniature 2-Pin Connector",
+    "alias": [],
+    "description": "",
+    "image": "",
+    "parts": ["MP8J", "MP8K", "MP8T", "MP8R", "MP8E", "MP8N", "MP8U", "FJ5J", "FJ5K", "FJ5T", "FJ5R", "FJ5E", "FJ5N", "FJ5U"],
+    "fields": {
+      "Type": ["2 Pin Plug", "2 Pin Plug", "2 Pin Plug", "2 Pin Plug", "2 Pin Plug", "2 Pin Plug", "2 Pin Plug", "2 Pin Jack", "2 Pin Jack", "2 Pin Jack", "2 Pin Jack", "2 Pin Jack", "2 Pin Jack", "2 Pin Jack"],
+      "Color Code": ["Orange", "Yellow", "Blue", "Green", "Purple", "Orange", "White", "Orange", "Yellow", "Blue", "Green", "Purple", "Orange", "White"],
+      "ANSI Calibration": ["J", "K", "T", "R or S", "E", "N", "U", "J", "K", "T", "R or S", "E", "N", "U"]
+    }
+  },
+  "three_pin_connector": {
+    "name": "3-Pin Connector",
+    "alias": [],
+    "description": "",
+    "image": "",
+    "parts": ["MP5J", "MP5K", "MP5T", "MP5R", "MP5E", "MP5N", "MP5U", "MP6J", "MP6K", "MP6T", "MP6R", "MP6E", "MP6N", "MP6U", "FJ3J", "FJ3K", "FJ3T", "FJ3R", "FJ3E", "FJ3N", "FJ3U"],
+    "fields": {
+      "Type": ["Solid Pin Plug", "Solid Pin Plug", "Solid Pin Plug", "Solid Pin Plug", "Solid Pin Plug", "Solid Pin Plug", "Solid Pin Plug", "2 Hollow 1 Solid Pin", "2 Hollow 1 Solid Pin", "2 Hollow 1 Solid Pin", "2 Hollow 1 Solid Pin", "2 Hollow 1 Solid Pin", "2 Hollow 1 Solid Pin", "2 Hollow 1 Solid Pin", "Jack", "Jack", "Jack", "Jack", "Jack", "Jack", "Jack"],
+      "Color Code": ["Orange", "Yellow", "Blue", "Green", "Purple", "Orange", "White", "Orange", "Yellow", "Blue", "Green", "Purple", "Orange", "White", "Orange", "Yellow", "Blue", "Green", "Purple", "Orange", "White"],
+      "ANSI Calibration": ["J", "K", "T", "R or S", "E", "N", "U", "J", "K", "T", "R or S", "E", "N", "U", "J", "K", "T", "R or S", "E", "N", "U"]
+    }
+  },
+  "miniature_three_pin_connector": {
+    "name": "Miniature 3-Pin Connector",
+    "alias": [],
+    "description": "",
+    "image": "",
+    "parts": ["MP9J", "MP9K", "MP9T", "MP9R", "MP9E", "MP9N", "MP9U", "FJ6J", "FJ6K", "FJ6T", "FJ6R", "FJ6E", "FJ6N", "FJ6U"],
+    "fields": {
+      "Type": ["2 Pin Plug", "2 Pin Plug", "2 Pin Plug", "2 Pin Plug", "2 Pin Plug", "2 Pin Plug", "2 Pin Plug", "2 Pin Jack", "2 Pin Jack", "2 Pin Jack", "2 Pin Jack", "2 Pin Jack", "2 Pin Jack", "2 Pin Jack"],
+      "Color Code": ["Orange", "Yellow", "Blue", "Green", "Purple", "Orange", "White", "Orange", "Yellow", "Blue", "Green", "Purple", "Orange", "White"],
+      "ANSI Calibration": ["J", "K", "T", "R or S", "E", "N", "U", "J", "K", "T", "R or S", "E", "N", "U"]
+    }
+  },
+  "high_temperature_miniature_three_pin_connector": {
+    "name": "Miniature 3-Pin Connector",
+    "alias": [],
+    "description": "",
+    "image": "",
+    "parts": ["MP10J", "MP10K", "MP10T", "MP10R", "MP10E", "MP10N", "MP10U", "FJ7J", "FJ7K", "FJ7T", "FJ7R", "FJ7E", "FJ7N", "FJ7U"],
+    "fields": {
+      "Type": ["2 Pin Plug", "2 Pin Plug", "2 Pin Plug", "2 Pin Plug", "2 Pin Plug", "2 Pin Plug", "2 Pin Plug", "2 Pin Jack", "2 Pin Jack", "2 Pin Jack", "2 Pin Jack", "2 Pin Jack", "2 Pin Jack", "2 Pin Jack"],
+      "Color Code": ["Orange", "Yellow", "Blue", "Green", "Purple", "Orange", "White", "Orange", "Yellow", "Blue", "Green", "Purple", "Orange", "White"],
+      "ANSI Calibration": ["J", "K", "T", "R or S", "E", "N", "U", "J", "K", "T", "R or S", "E", "N", "U"]
+    }
+  }
+}

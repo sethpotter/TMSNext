@@ -1,0 +1,66 @@
+{
+  "ceramic_terminal_block": {
+    "name": "Ceramic Terminal Blocks",
+    "alias": [],
+    "description": "",
+    "image": "",
+    "parts": ["TA2", "TB4"],
+    "fields": {
+      "Wire": ["Single", "Dual"]
+    }
+  },
+  "standard_barrier_block": {
+    "name": "Standard Barrier Blocks",
+    "alias": [],
+    "description": "",
+    "image": "",
+    "parts": ["BB2", "BB4", "BB6", "BB8", "BB10", "BB12", "BB14", "CBB2", "CBB4", "CBB6", "CBB8", "CBB10", "CBB12", "CBB14"],
+    "fields": {
+      "Number of Terminals": ["2", "4", "6", "8", "10", "12", "14", "2", "4", "6", "8", "10", "12", "14"],
+      "Compensation": ["No", "No", "No", "No", "No", "No", "No", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes"]
+    },
+    "parameters": [
+      "miniature_barrier_block"
+    ]
+  },
+  "sectional_barrier_block": {
+    "name": "Sectional Barrier Blocks",
+    "alias": [],
+    "description": "",
+    "image": "",
+    "parts": ["SBB2", "SBB4", "SBB6", "SBB8", "SBB10", "SBB12", "SBB14", "SBB16"],
+    "fields": {
+      "Number of Terminals": ["2", "4", "6", "8", "10", "12", "14", "16"]
+    }
+  },
+  "oval_ceramic_terminal_block": {
+    "name": "Oval Ceramic Terminal Blocks",
+    "alias": [],
+    "description": "",
+    "image": "",
+    "parts": ["TF2", "TG4", "TH6"],
+    "fields": {
+      "Wire": ["Single", "Dual", "Triplex"]
+    }
+  },
+  "mini_round_ceramic_terminal_block": {
+    "name": "Mini Round Ceramic Terminal Blocks",
+    "alias": [],
+    "description": "",
+    "image": "",
+    "parts": ["TI2"],
+    "fields": {
+      "Wire": ["Single"]
+    }
+  },
+  "round_ceramic_terminal_block": {
+    "name": "Round Ceramic Terminal Blocks",
+    "alias": [],
+    "description": "",
+    "image": "",
+    "parts": ["TC2", "TD4", "TE6"],
+    "fields": {
+      "Wire": ["Single", "Dual", "Triplex"]
+    }
+  }
+}

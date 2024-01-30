@@ -359,9 +359,11 @@
     "description": "",
     "type": "dictionary",
     "value": {
-      "2 (4 if Dual)": "2",
-      "3 (6 if Dual)": "3",
-      "4 (8 if Dual)": "4"
+      "2": "2",
+      "3": "3",
+      "4 (Single/Dual)": "4",
+      "6 (Dual)": "6",
+      "8 (Dual)": "8"
     }
   },
   "temp_range": {

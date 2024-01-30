@@ -1,0 +1,14 @@
+{
+  "standard_extension": {
+    "name": "Standard Extension",
+    "alias": [],
+    "description": "",
+    "image": "",
+    "parameters": [
+      "nipple",
+      "extension_length",
+      "extension_material",
+      "extension_thread_size"
+    ]
+  }
+}

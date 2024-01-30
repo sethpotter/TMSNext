@@ -1,0 +1,133 @@
+{
+  "type_1": {
+    "name": "Type 1",
+    "alias": [
+      "Bare"
+    ],
+    "description": "RTD Sensor",
+    "image": "/images/rtds/drawings/type-1.png",
+    "code": "1",
+    "parameters": [
+      "sensor_type",
+      "number_of_wires",
+      "sheath_diameter",
+      "sheath_length",
+      "sheath_material",
+      "lead_length",
+      "temp_range"
+    ]
+  },
+  "type_2": {
+    "name": "Type 2",
+    "alias": [
+      "Extended Leads"
+    ],
+    "description": "RTD Sensor With Extended Leads",
+    "image": "/images/rtds/drawings/type-2.png",
+    "code": "2",
+    "parameters": [
+      "sensor_type",
+      "number_of_wires",
+      "sheath_diameter",
+      "sheath_length",
+      "sheath_material",
+      "lead_insulation",
+      "lead_wire_gauge_rtd",
+      "lead_length",
+      "temp_range"
+    ]
+  },
+  "type_3": {
+    "name": "Type 3",
+    "alias": [
+      "Extended Armored Leads"
+    ],
+    "description": "RTD Sensor With Extended Armored Leads",
+    "image": "/images/rtds/drawings/type-3.png",
+    "code": "3",
+    "parameters": [
+      "sensor_type",
+      "number_of_wires",
+      "sheath_diameter",
+      "sheath_length",
+      "sheath_material",
+      "armor",
+      "armor_length",
+      "lead_insulation",
+      "lead_length",
+      "temp_range"
+    ]
+  },
+  "type_4": {
+    "name": "Type 4",
+    "alias": [
+      "Double Threaded Fixed Fitting"
+    ],
+    "description": "RTD Sensor With Double Threaded Fixed Fitting",
+    "image": "/images/rtds/drawings/type-4.png",
+    "code": "4",
+    "parameters": [
+      "sensor_type",
+      "number_of_wires",
+      "sheath_diameter",
+      "sheath_length",
+      "sheath_material",
+      "lead_length",
+      "temp_range"
+    ]
+  },
+  "type_s4": {
+    "name": "Type S4",
+    "alias": [
+      "Double Threaded Spring Loaded Fitting"
+    ],
+    "description": "RTD Sensor With Double Threaded Spring Loaded Fitting",
+    "image": "/images/rtds/drawings/type-4.png",
+    "code": "S4",
+    "parameters": [
+      "sensor_type",
+      "number_of_wires",
+      "sheath_diameter",
+      "sheath_length",
+      "sheath_material",
+      "lead_length",
+      "temp_range"
+    ]
+  },
+  "type_5": {
+    "name": "Type 5",
+    "alias": [
+      "Fixed Fitting"
+    ],
+    "description": "RTD Sensor With Fixed Fitting",
+    "image": "/images/rtds/drawings/type-5.png",
+    "code": "5",
+    "parameters": [
+      "sensor_type",
+      "number_of_wires",
+      "sheath_diameter",
+      "sheath_length",
+      "sheath_material",
+      "lead_length",
+      "temp_range"
+    ]
+  },
+  "type_6": {
+    "name": "Type 6",
+    "alias": [
+      "Spring Loading Hardware"
+    ],
+    "description": "RTD Sensor With Spring Loading Hardware",
+    "image": "/images/rtds/drawings/type-6.png",
+    "code": "6",
+    "parameters": [
+      "sensor_type",
+      "number_of_wires",
+      "sheath_diameter",
+      "sheath_length",
+      "sheath_material",
+      "lead_length",
+      "temp_range"
+    ]
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "straight_barstock": {
+    "name": "Straight Barstock",
+    "alias": [],
+    "description": "Straight-Threaded Barstock-100S Series",
+    "image": "",
+    "parts": ["100S", "101S", "102S", "103S", "104S", "105S", "106S", "107S", "108S", "109S"],
+    "fields": {
+      "Hex Size": ["1.125", "1.125", "1.125", "1.125", "1.125", "1.125", "1.375", "1.375", "1.375", "1.375"],
+      "Bore": [".265", ".390", ".390", ".265", ".515", ".437", ".515", ".437", ".390", ".265"],
+      "NPT": ["1/2\"", "1/2\"", "3/4\"", "3/4\"", "3/4\"", "3/4\"", "1\"", "1\"", "1\"", "1\""],
+      "Stem Diameter": [".625", ".625", ".750", ".750", ".875", ".750", ".875", ".875", ".875", ".750"]
+    },
+    "parameters": [
+      "material_code",
+      "u_length",
+      "t_length"
+    ]
+  },
+  "tapered_barstock": {
+    "name": "Tapered Barstock",
+    "alias": [],
+    "description": "Tapered-Threaded Barstock-100T Series",
+    "image": "",
+    "parts": ["100T", "101T", "102T", "103T", "104T", "105T", "106T", "107T", "108T", "109T"],
+    "fields": {
+      "Hex Size": ["1.125", "1.125", "1.125", "1.125", "1.125", "1.125", "1.375", "1.375", "1.375", "1.375"],
+      "Bore": [".265", ".390", ".390", ".265", ".515", ".437", ".515", ".437", ".390", ".265"],
+      "NPT": ["1/2\"", "1/2\"", "3/4\"", "3/4\"", "3/4\"", "3/4\"", "1\"", "1\"", "1\"", "1\""],
+      "Diameter 1": [".688", ".688", ".875", ".875", ".875", ".875", "1", "1", "1", "1"],
+      "Diameter 2": [".625", ".625", ".750", ".750", ".750", ".750", ".750", ".875", ".750", ".750"]
+    },
+    "parameters": [
+      "material_code",
+      "u_length",
+      "t_length"
+    ]
+  },
+  "tubes_no_bushings": {
+    "name": "Tubes No Bushings",
+    "alias": [],
+    "description": "Metallic Protection Tubes",
+    "image": "",
+    "parts": ["200", "201", "202", "203", "204", "205", "206", "207"],
+    "fields": {
+      "NPT": ["1/4\"","1/4\"","1/2\"","1/2\"","3/4\"","3/4\"","1\"", "1\""],
+      "Bore": [".364", ".302", ".622", ".546", ".824", ".742", "1.049", ".957"],
+      "Diameter": [".540", ".540", ".843", ".843", "1.050", "1.050", "1.312", "1.312"]
+    },
+    "parameters": [
+      "material_code",
+      "l_length"
+    ]
+  },
+  "tubes_with_mounting_bushing": {
+    "name": "Tubes With Mounting Bushing",
+    "alias": [],
+    "description": "Metallic Protection Tubes",
+    "image": "",
+    "parts": ["300", "301", "302", "303", "304", "305", "306", "307"],
+    "fields": {
+      "NPT \"A\"": ["1/4\"","1/2\"","1/2\"","1/2\"","3/4\"","3/4\"","1\"", "1\""],
+      "Bore": [".364", ".622", ".622", ".622", ".824", ".824", "1.049", "1.049"],
+      "NPT \"C\"": ["1/2\"","3/4\"","1\"","1 1/2\"","1\"","1 1/2\"","1 1/2\"", "2\""],
+      "Diameter": [".540", ".843", ".843", ".843", "1.050", "1.050", "1.312", "1.312"]
+    },
+    "parameters": [
+      "material_code",
+      "u_length",
+      "t_length"
+    ]
+  },
+  "tubes_flanged": {
+    "name": "Tubes Flanged",
+    "alias": [],
+    "description": "Metallic Protection Tubes",
+    "image": "",
+    "parts": ["400", "401", "402", "403", "404", "405", "406", "407"],
+    "fields": {
+      "NPT \"A\"": ["1/4\"", "1/2\"", "3/4\"", "1\"", "1/4\"", "1/2\"", "3/4\"", "1\""],
+      "Bore": [".364", ".622", ".824", "1.049", ".302", ".546", ".742", ".957"],
+      "Diameter": [".540", ".843", "1.050", "1.312", ".540", ".843", "1.050", "1.312"]
+    },
+    "parameters": [
+      "material_code",
+      "flange_code",
+      "u_length",
+      "t_length"
+    ]
+  },
+  "socket_weld": {
+    "name": "Socket Weld",
+    "alias": [],
+    "description": "",
+    "image": "",
+    "parts": ["500", "501", "502", "503", "504", "505", "506", "507", "508", "509", "510", "511"],
+    "fields": {
+      "Pipe Size": ["3/4\"", "3/4\"", "1\"", "1\"", "1 1/4\"", "1 1/4\"", "3/4\"", "3/4\"", "1\"", "1\"", "1 1/4\"", "1 1/4\""],
+      "Diameter \"A\"": ["1.050", "1.050", "1.312", "1.312", "1.660", "1.660", "1.050", "1.050", "1.312", "1.312", "1.660", "1.660"],
+      "Bore": [".390", ".265", ".265", ".390", ".265", ".390", ".265", ".390", ".265", ".390", ".265", ".390"],
+      "\"T\" Length": ["1.75", "1.75", "1.75", "1.75", "1.75", "1.75", "1.75", "1.75", "1.75", "1.75", "1.75", "1.75"],
+      "Diameter 1": [".812", ".812", "1", "1", "1", "1", ".812", ".812", "1", "1", "1", "1"],
+      "Diameter 2": [".750", ".750", ".750", ".750", ".750", ".750", ".812", ".812", "1", "1", "1", "1"]
+    },
+    "parameters": [
+      "material_code",
+      "u_length",
+      "t_length"
+    ]
+  },
+  "weld_in_barstock": {
+    "name": "Weld-in Barstock",
+    "alias": [],
+    "description": "",
+    "image": "",
+    "parts": ["600", "601", "602", "603"],
+    "fields": {
+      "NPT \"A\"": ["1/2\"", "1/2\"", "1/2\"", "1/2\""],
+      "Bore": [".515", ".437", ".390", ".265"],
+      "Diameter": [".875", ".875", ".750", ".750"]
+    },
+    "parameters": [
+      "material_code",
+      "u_length",
+      "t_length"
+    ]
+  },
+  "flanged_barstock": {
+    "name": "Flanged Barstock",
+    "alias": [],
+    "description": "",
+    "image": "",
+    "parts": ["700", "701", "702", "703", "704", "705", "706", "707", "708", "709"],
+    "fields": {
+      "Bore": [".515", ".437", ".390", ".265", ".390", ".265", ".343", ".265", ".390", ".265"],
+      "Diameter 1": [".937", ".875", ".750", ".750", ".875", ".875", "1.062", "1.062", "1", "1"],
+      "Diameter 2": [".937", ".875", ".750", ".750", ".875", ".750", ".750", ".625", ".750", ".750"]
+    },
+    "parameters": [
+      "material_code",
+      "flange_code",
+      "u_length",
+      "t_length"
+    ]
+  },
+  "flanged_tantalum_sleeve": {
+    "name": "Flanged Tantalum Sleeve",
+    "alias": [],
+    "description": "",
+    "image": "",
+    "parts": ["800", "801", "802", "803"],
+    "fields": {
+      "Bore": [".265", ".390", ".390", ".265"],
+      "Diameter": [".500", ".500", ".750", ".750"]
+    },
+    "parameters": [
+      "material_code",
+      "flange_code",
+      "u_length",
+      "t_length"
+    ]
+  },
+  "ground_joint": {
+    "name": "Ground Joint",
+    "alias": [],
+    "description": "",
+    "image": "",
+    "parts": ["900", "901", "902", "903", "904"],
+    "fields": {
+      "Bore": [".515", ".390", ".265", ".515", ".390"],
+      "Diameter 1": ["1.375", "1.375", "1.375", "1.750", "1.750"],
+      "Diameter 2": [".875", ".750", ".750", ".875", ".750"],
+      "Radius": ["1", "1", "1", "1.250", "1.250"]
+    },
+    "parameters": [
+      "material_code",
+      "flange_code",
+      "u_length",
+      "t_length"
+    ]
+  },
+  "van_stone": {
+    "name": "Van Stone",
+    "alias": [],
+    "description": "",
+    "image": "",
+    "parts": ["1000", "1001", "1002", "1003"],
+    "fields": {
+      "Diameter \"F\"": ["2", "2", "2.875", "2.875"],
+      "Bore": [".265", ".390", ".265", ".390"],
+      "Diameter \"C\"": ["1.312", "1.312", "1.9", "1.9"],
+      "Diameter \"D\"": [".750", ".875", ".750", ".875"],
+      "Flange Size": ["1\"", "1\"", "1 1/2\"", "1 1/2\""]
+    },
+    "parameters": [
+      "material_code",
+      "flange_code",
+      "u_length",
+      "t_length"
+    ]
+  },
+  "sample_probes": {
+    "name": "Sample Probes",
+    "alias": ["Type 1660s"],
+    "description": "",
+    "image": "",
+    "parts": ["1661", "1662"],
+    "fields": {},
+    "parameters": [
+      "material_code",
+      "dash_number",
+      "u_length",
+      "angle"
+    ]
+  },
+  "big_bore": {
+    "name": "Big Bore",
+    "alias": ["Type 1100"],
+    "description": "Large Bore for 11/16\" Diameter Bulbs",
+    "image": "",
+    "parts": ["1100"],
+    "fields": {
+
+    },
+    "parameters": [
+      "process_connection_1100",
+      "lagging_length",
+      "material_code",
+      "u_length"
+    ]
+  },
+  "type_1200s": {
+    "name": "Type 1200s",
+    "alias": [],
+    "description": "Ceramic Protection Tubes",
+    "image": "",
+    "parts": ["1200", "1201", "1202"],
+    "fields": {},
+    "parameters": [
+      "tube_size",
+      "material_code",
+      "l_length"
+    ]
+  },
+  "type_t100s": {
+    "name": "Type T100s",
+    "alias": [],
+    "description": "",
+    "image": "",
+    "parts": ["T100", "T101", "T102", "T103", "T104"],
+    "fields": {},
+    "parameters": [
+      "process_connection_t100s",
+      "material_code",
+      "u_length"
+    ]
+  },
+  "type_t200": {
+    "name": "Type T200",
+    "alias": [],
+    "description": "",
+    "image": "",
+    "parts": ["T200"],
+    "fields": {},
+    "parameters": [
+      "material_code",
+      "flange_code",
+      "u_length",
+      "t200_lag"
+    ]
+  },
+  "type_t700s": {
+    "name": "Type T700s",
+    "alias": [],
+    "description": "",
+    "image": "",
+    "parts": ["T700", "T701"],
+    "fields": {
+      "Pipe Size": ["3/4\"", "1\""],
+      "Diameter \"P\"": ["1.050", "1.312"],
+      "Length \"T\"": ["1.75", "1.75"],
+      "Diameter \"Q\"": [".750", ".875"]
+    },
+    "parameters": [
+      "material_code",
+      "u_length"
+    ]
+  }
+}
