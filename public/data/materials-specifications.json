@@ -1,0 +1,884 @@
+[
+    {
+        "media": "Acetic Acid",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "Monel"
+    },
+    {
+        "media": "Acetic Anhydride",
+        "temperature": "300",
+        "concentrate": "",
+        "material": "Nickel"
+    },
+    {
+        "media": "Acetone",
+        "temperature": "213",
+        "concentrate": "All",
+        "material": "304SS"
+    },
+    {
+        "media": "Acetylene",
+        "temperature": "400",
+        "concentrate": "",
+        "material": "304SS"
+    },
+    {
+        "media": "Alcohols",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "304SS"
+    },
+    {
+        "media": "Alum (Potassium or Sodium)",
+        "temperature": "300",
+        "concentrate": "All",
+        "material": "Hast. C"
+    },
+    {
+        "media": "Aluminum Chloride",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "Hast. B"
+    },
+    {
+        "media": "Aluminum Sulfate",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "316SS"
+    },
+    {
+        "media": "Ammonia, Dry",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "304/316 SS"
+    },
+    {
+        "media": "Ammonium Hydroxide",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "304/316 SS"
+    },
+    {
+        "media": "Ammonium Chloride",
+        "temperature": "300",
+        "concentrate": "50%",
+        "material": "Monel"
+    },
+    {
+        "media": "Ammonium Nitrate",
+        "temperature": "300",
+        "concentrate": "All",
+        "material": "304SS"
+    },
+    {
+        "media": "Ammonium Sulphate",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "316SS"
+    },
+    {
+        "media": "Amyl Acetate",
+        "temperature": "300",
+        "concentrate": "All",
+        "material": "Monel"
+    },
+    {
+        "media": "Aniline",
+        "temperature": "75",
+        "concentrate": "",
+        "material": "304SS"
+    },
+    {
+        "media": "Asphalt",
+        "temperature": "250",
+        "concentrate": "",
+        "material": "304SS"
+    },
+    {
+        "media": "Barium Compounds",
+        "temperature": "(See Calcium)",
+        "concentrate": "",
+        "material": ""
+    },
+    {
+        "media": "Beer",
+        "temperature": "70",
+        "concentrate": "",
+        "material": "304SS"
+    },
+    {
+        "media": "Benzine",
+        "temperature": "70",
+        "concentrate": "",
+        "material": "Steel"
+    },
+    {
+        "media": "Benzoic Acid",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "316SS"
+    },
+    {
+        "media": "Bleaching Powder",
+        "temperature": "70",
+        "concentrate": "15%",
+        "material": "Monel"
+    },
+    {
+        "media": "Borax",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "Brass"
+    },
+    {
+        "media": "Bordeaux Mixture",
+        "temperature": "200",
+        "concentrate": "",
+        "material": "304SS"
+    },
+    {
+        "media": "Boric Acid",
+        "temperature": "400",
+        "concentrate": "All",
+        "material": "316SS"
+    },
+    {
+        "media": "Bromine",
+        "temperature": "125",
+        "concentrate": "Dry",
+        "material": "Monel"
+    },
+    {
+        "media": "Butane",
+        "temperature": "400",
+        "concentrate": "All",
+        "material": "Steel"
+    },
+    {
+        "media": "Butyl Alcohol",
+        "temperature": "(See Alcohol)",
+        "concentrate": "",
+        "material": ""
+    },
+    {
+        "media": "Butyric Acic",
+        "temperature": "212",
+        "concentrate": "",
+        "material": "Hast. C"
+    },
+    {
+        "media": "Calcium Bisulphite",
+        "temperature": "75",
+        "concentrate": "All",
+        "material": "Hast. C"
+    },
+    {
+        "media": "Calcium Chloride",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "Hast. C"
+    },
+    {
+        "media": "Calcium Hydroxide",
+        "temperature": "300",
+        "concentrate": "20%",
+        "material": "Hast. C"
+    },
+    {
+        "media": "Calcium Hypochlorite",
+        "temperature": "(See Bleaching Powder)",
+        "concentrate": "",
+        "material": ""
+    },
+    {
+        "media": "Carbolic Acid",
+        "temperature": "(See Phenol)",
+        "concentrate": "",
+        "material": ""
+    },
+    {
+        "media": "Carbon Dioxide, Dry",
+        "temperature": "800",
+        "concentrate": "All",
+        "material": "Brass"
+    },
+    {
+        "media": "Carbonated Water",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "304SS"
+    },
+    {
+        "media": "Carbonated Beverages",
+        "temperature": "212",
+        "concentrate": "",
+        "material": "304SS"
+    },
+    {
+        "media": "Carbon Disulfide",
+        "temperature": "200",
+        "concentrate": "",
+        "material": "304SS"
+    },
+    {
+        "media": "Carbon Tetrachloride",
+        "temperature": "125",
+        "concentrate": "All",
+        "material": "Monel"
+    },
+    {
+        "media": "Chlorine, Dry",
+        "temperature": "100",
+        "concentrate": "",
+        "material": "Monel"
+    },
+    {
+        "media": "Chlorine, Moist",
+        "temperature": "100",
+        "concentrate": "All",
+        "material": "Monel"
+    },
+    {
+        "media": "Chloracetic Acid",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "Monel"
+    },
+    {
+        "media": "Chloroform, Dry",
+        "temperature": "212",
+        "concentrate": "",
+        "material": "Monel"
+    },
+    {
+        "media": "Chromic Acid",
+        "temperature": "300",
+        "concentrate": "All",
+        "material": "Hast. C"
+    },
+    {
+        "media": "Cider",
+        "temperature": "300",
+        "concentrate": "All",
+        "material": "304SS"
+    },
+    {
+        "media": "Citric Acid",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "Hast. C"
+    },
+    {
+        "media": "Copper (10) Chloride",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "Hast. C"
+    },
+    {
+        "media": "Copper (10) Nitrate",
+        "temperature": "300",
+        "concentrate": "All",
+        "material": "316SS"
+    },
+    {
+        "media": "Copper (10) Sulfate",
+        "temperature": "300",
+        "concentrate": "All",
+        "material": "316SS"
+    },
+    {
+        "media": "Copper Plating Solution (Cyanide)",
+        "temperature": "180",
+        "concentrate": "",
+        "material": "304SS"
+    },
+    {
+        "media": "Copper Plating Solution (Acid)",
+        "temperature": "75",
+        "concentrate": "",
+        "material": "304SS"
+    },
+    {
+        "media": "Corn Oil",
+        "temperature": "200",
+        "concentrate": "",
+        "material": "304SS"
+    },
+    {
+        "media": "Creosote",
+        "temperature": "200",
+        "concentrate": "All",
+        "material": "304SS"
+    },
+    {
+        "media": "Crude Oil",
+        "temperature": "300",
+        "concentrate": "",
+        "material": "Monel"
+    },
+    {
+        "media": "Ethyl Acetate",
+        "temperature": "(See Lacqure Thinner)",
+        "concentrate": "",
+        "material": ""
+    },
+    {
+        "media": "Ethyl Chloride, Dry",
+        "temperature": "500",
+        "concentrate": "",
+        "material": "Steel"
+    },
+    {
+        "media": "Ethanol",
+        "temperature": "(See Alcohol)",
+        "concentrate": "",
+        "material": ""
+    },
+    {
+        "media": "Ethylene Glycol (Uninhibited)",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "304SS"
+    },
+    {
+        "media": "Ethylene Oxide",
+        "temperature": "75",
+        "concentrate": "",
+        "material": "Steel"
+    },
+    {
+        "media": "Fatty Acids",
+        "temperature": "500",
+        "concentrate": "All",
+        "material": "316SS"
+    },
+    {
+        "media": "Ferric Chloride",
+        "temperature": "75",
+        "concentrate": "All",
+        "material": "Hast. C"
+    },
+    {
+        "media": "Ferric Sulfate",
+        "temperature": "300",
+        "concentrate": "All",
+        "material": "304SS"
+    },
+    {
+        "media": "Formaldehyde",
+        "temperature": "212",
+        "concentrate": "40%",
+        "material": "316SS"
+    },
+    {
+        "media": "Formic Acid",
+        "temperature": "300",
+        "concentrate": "All",
+        "material": "316SS"
+    },
+    {
+        "media": "Freon",
+        "temperature": "300",
+        "concentrate": "",
+        "material": "Steel"
+    },
+    {
+        "media": "Fluorine, Anhydrous",
+        "temperature": "100",
+        "concentrate": "",
+        "material": "304SS"
+    },
+    {
+        "media": "Furforal",
+        "temperature": "450",
+        "concentrate": "",
+        "material": "316SS"
+    },
+    {
+        "media": "Gasoline",
+        "temperature": "300",
+        "concentrate": "",
+        "material": "Steel"
+    },
+    {
+        "media": "Glucose",
+        "temperature": "300",
+        "concentrate": "",
+        "material": "304SS"
+    },
+    {
+        "media": "Glue PH 6-8",
+        "temperature": "300",
+        "concentrate": "All",
+        "material": "304SS"
+    },
+    {
+        "media": "Glycerine",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "Brass"
+    },
+    {
+        "media": "Hydrobromic Acid",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "Hast. C"
+    },
+    {
+        "media": "Hydrochloric Acid (37 - 38%)",
+        "temperature": "225",
+        "concentrate": "All",
+        "material": "Hast. B"
+    },
+    {
+        "media": "Hydrogen Chloride, Dry",
+        "temperature": "500",
+        "concentrate": "",
+        "material": "304SS"
+    },
+    {
+        "media": "Hydrocyanic Acid",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "304SS"
+    },
+	{
+        "media": "Hydrofluoric Acid",
+        "temperature": "212",
+        "concentrate": "60%",
+        "material": "Monel"
+    },
+    {
+        "media": "Hydrogen Flouride, Dry",
+        "temperature": "175",
+        "concentrate": "",
+        "material": "Steel"
+    },
+    {
+        "media": "Hydrofluogilicic Acid",
+        "temperature": "212",
+        "concentrate": "40%",
+        "material": "Monel"
+    },
+    {
+        "media": "Hydrogen Peroxide",
+        "temperature": "125",
+        "concentrate": "10-100%",
+        "material": "304SS"
+    },
+    {
+        "media": "Kerosene",
+        "temperature": "300",
+        "concentrate": "All",
+        "material": "Steel"
+    },
+    {
+        "media": "Lacquers & Thinners",
+        "temperature": "300",
+        "concentrate": "All",
+        "material": "304SS"
+    },
+    {
+        "media": "Latic Acid",
+        "temperature": "300",
+        "concentrate": "All",
+        "material": "316SS"
+    },
+    {
+        "media": "Lime",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "316SS"
+    },
+    {
+        "media": "Linseed Oil",
+        "temperature": "75",
+        "concentrate": "",
+        "material": "Steel"
+    },
+    {
+        "media": "Magnesium Chloride",
+        "temperature": "212",
+        "concentrate": "50%",
+        "material": "Nickel"
+    },
+    {
+        "media": "Magnesium Hydroxide (Or Oxide)",
+        "temperature": "75",
+        "concentrate": "All",
+        "material": "304SS"
+    },
+    {
+        "media": "Magnesium Sulfate",
+        "temperature": "212",
+        "concentrate": "40%",
+        "material": "304SS"
+    },
+    {
+        "media": "Mercuric Chloride",
+        "temperature": "75",
+        "concentrate": "10%",
+        "material": "Hast. C"
+    },
+    {
+        "media": "Mercury",
+        "temperature": "700",
+        "concentrate": "100%",
+        "material": "Steel"
+    },
+    {
+        "media": "Methyene",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "304SS"
+    },
+    {
+        "media": "Methyl Chloride, Dry",
+        "temperature": "75",
+        "concentrate": "",
+        "material": "Steel"
+    },
+    {
+        "media": "Milk, Fresh Or Sour",
+        "temperature": "180",
+        "concentrate": "",
+        "material": "304SS"
+    },
+    {
+        "media": "Molasses",
+        "temperature": "(See Glucose)",
+        "concentrate": "",
+        "material": ""
+    },
+    {
+        "media": "Natural Gas",
+        "temperature": "70",
+        "concentrate": "",
+        "material": "304SS"
+    },
+    {
+        "media": "Ntiric Acid",
+        "temperature": "75",
+        "concentrate": "All",
+        "material": "304SS"
+    },
+    {
+        "media": "Nitric Acid",
+        "temperature": "110",
+        "concentrate": "All",
+        "material": "316SS"
+    },
+    {
+        "media": "Oxygen",
+        "temperature": "75",
+        "concentrate": "All",
+        "material": "Steel"
+    },
+    {
+        "media": "Oleic Acid",
+        "temperature": "(See Fatty Acid)",
+        "concentrate": "",
+        "material": ""
+    },
+    {
+        "media": "Oxalic Acid",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "Monel"
+    },
+    {
+        "media": "Photographic Bleaching",
+        "temperature": "100",
+        "concentrate": "All",
+        "material": "304SS"
+    },
+    {
+        "media": "Palmitic Acid",
+        "temperature": "(See Fatty Acid)",
+        "concentrate": "",
+        "material": ""
+    },
+    {
+        "media": "Phosphoric Acid",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "316SS"
+    },
+    {
+        "media": "Phenol",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "316SS"
+    },
+    {
+        "media": "Potassium Compounds",
+        "temperature": "(See Sodium Compounds)",
+        "concentrate": "",
+        "material": ""
+    },
+    {
+        "media": "Propane",
+        "temperature": "300",
+        "concentrate": "",
+        "material": "Steel"
+    },
+    {
+        "media": "Rosin",
+        "temperature": "700",
+        "concentrate": "100%",
+        "material": "316SS"
+    },
+    {
+        "media": "Sea Water",
+        "temperature": "75",
+        "concentrate": "",
+        "material": "Monel"
+    },
+    {
+        "media": "Soap & Detergents",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "304SS"
+    },
+    {
+        "media": "Sodium Bicarbonate",
+        "temperature": "212",
+        "concentrate": "20%",
+        "material": "316SS"
+    },
+    {
+        "media": "Sodium Bisulphite",
+        "temperature": "212",
+        "concentrate": "20%",
+        "material": "316SS"
+    },
+    {
+        "media": "Sodium Bisulphate",
+        "temperature": "212",
+        "concentrate": "20%",
+        "material": "304SS"
+    },
+    {
+        "media": "Sodium Carbinate",
+        "temperature": "212",
+        "concentrate": "40%",
+        "material": "316SS"
+    },
+    {
+        "media": "Sodium Chloride",
+        "temperature": "300",
+        "concentrate": "30%",
+        "material": "Monel"
+    },
+    {
+        "media": "Sodium Chromate",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "316SS"
+    },
+    {
+        "media": "Salt Or Brine",
+        "temperature": "(See Sodium Chloride)",
+        "concentrate": "",
+        "material": ""
+    },
+    {
+        "media": "Sodium Cyanide",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "304SS"
+    },
+    {
+        "media": "Sodium Hydroxide",
+        "temperature": "212",
+        "concentrate": "30%",
+        "material": "316SS"
+    },
+    {
+        "media": "Sodium Hypochlorite",
+        "temperature": "75",
+        "concentrate": "10%",
+        "material": "Hast. C"
+    },
+    {
+        "media": "Sodium Nitrate",
+        "temperature": "212",
+        "concentrate": "40%",
+        "material": "304SS"
+    },
+    {
+        "media": "Sodium Nitrate",
+        "temperature": "75",
+        "concentrate": "20%",
+        "material": "316SS"
+    },
+    {
+        "media": "Sodium Phosphate",
+        "temperature": "212",
+        "concentrate": "10%",
+        "material": "Steel"
+    },
+    {
+        "media": "Sodium Silicate",
+        "temperature": "212",
+        "concentrate": "10%",
+        "material": "Steel"
+    },
+    {
+        "media": "Sodium Sulfate",
+        "temperature": "212",
+        "concentrate": "30%",
+        "material": "316SS"
+    },
+    {
+        "media": "Sodium Sulfide",
+        "temperature": "212",
+        "concentrate": "10%",
+        "material": "316SS"
+    },
+    {
+        "media": "Sodium Sulfide",
+        "temperature": "212",
+        "concentrate": "30%",
+        "material": "304SS"
+    },
+    {
+        "media": "Sodium Sulfite",
+        "temperature": "212",
+        "concentrate": "30%",
+        "material": "304SS"
+    },
+    {
+        "media": "Sodium Thiosulfate",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "304SS"
+    },
+    {
+        "media": "Steam",
+        "temperature": "",
+        "concentrate": "",
+        "material": ""
+    },
+    {
+        "media": "Stearic Acid",
+        "temperature": "(See Fatty Acid)",
+        "concentrate": "",
+        "material": ""
+    },
+    {
+        "media": "Sugar Solution",
+        "temperature": "(See Glucose)",
+        "concentrate": "",
+        "material": ""
+    },
+    {
+        "media": "Sulfur (Sulphur)",
+        "temperature": "500",
+        "concentrate": "",
+        "material": "304SS"
+    },
+    {
+        "media": "Sulfur Chloride",
+        "temperature": "75",
+        "concentrate": "Dry",
+        "material": "316SS"
+    },
+    {
+        "media": "Sulfur Dioxide",
+        "temperature": "500",
+        "concentrate": "Dry",
+        "material": "316SS"
+    },
+    {
+        "media": "Sulfur Trioxide",
+        "temperature": "500",
+        "concentrate": "Dry",
+        "material": "316SS"
+    },
+    {
+        "media": "Sulfuric (Sulphuric) Acid",
+        "temperature": "212",
+        "concentrate": "10%",
+        "material": "316SS"
+    },
+    {
+        "media": "Sulfuric (Sulphuric) Acid",
+        "temperature": "212",
+        "concentrate": "10%-90%",
+        "material": "Hast. B"
+    },
+    {
+        "media": "Sulfuric (Sulphuric) Acid",
+        "temperature": "212",
+        "concentrate": "90%-100%",
+        "material": "Hast. B"
+    },
+    {
+        "media": "Sulfuric (Sulphuric) Acid, Fuming",
+        "temperature": "175",
+        "concentrate": "",
+        "material": "Alloy 20"
+    },
+    {
+        "media": "Sulfurous Acid",
+        "temperature": "75",
+        "concentrate": "20%",
+        "material": "316SS"
+    },
+    {
+        "media": "Titanium Tetrachloride",
+        "temperature": "75",
+        "concentrate": "All",
+        "material": "316SS"
+    },
+    {
+        "media": "Tannic Acid",
+        "temperature": "75",
+        "concentrate": "40%",
+        "material": "Hast. B"
+    },
+    {
+        "media": "Toluene",
+        "temperature": "75",
+        "concentrate": "",
+        "material": "Steel"
+    },
+    {
+        "media": "Trichloracetic Acid",
+        "temperature": "75",
+        "concentrate": "All",
+        "material": "Hast. B"
+    },
+    {
+        "media": "Trichorethylene",
+        "temperature": "300",
+        "concentrate": "Dry",
+        "material": "Monel"
+    },
+    {
+        "media": "Turpentine",
+        "temperature": "75",
+        "concentrate": "",
+        "material": "316SS"
+    },
+    {
+        "media": "Varnish",
+        "temperature": "150",
+        "concentrate": "",
+        "material": "Steel"
+    },
+    {
+        "media": "Zinc Chloride",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "Hast. B"
+    },
+    {
+        "media": "Zinc Sulfate",
+        "temperature": "212",
+        "concentrate": "All",
+        "material": "316SS"
+    }
+]

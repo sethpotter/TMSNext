@@ -1,0 +1,158 @@
+{
+  "screwtop_aluminum": {
+    "name": "Aluminum",
+    "alias": [],
+    "description": "Compatible with Terminal Blocks TA2, TB4, TH6. Dimensions 3.52\" X 3.31\"",
+    "image": "/images/heads/screwtop-aluminum.png",
+    "parts": ["A1", "A2", "A3", "A4"],
+    "fields": {
+      "Conduit Connection": ["1/2\"", "3/4\"", "3/4\"", "3/4\""],
+      "Instrument Connection": ["1/2\"", "1/2\"", "3/4\"", "1\""]
+    }
+  },
+  "screwtop_cast_iron": {
+    "name": "Cast Iron",
+    "alias": [],
+    "description": "Compatible with Terminal Blocks TA2, TB4, TH6. Dimensions 3.52\" X 3.31\"",
+    "image": "/images/heads/screwtop-cast-iron-black.png",
+    "parts": ["C1", "C2", "C3", "C4"],
+    "fields": {
+      "Conduit Connection": ["1/2\"", "3/4\"", "3/4\"", "3/4\""],
+      "Instrument Connection": ["1/2\"", "1/2\"", "3/4\"", "1\""]
+    }
+  },
+  "screwtop_small_cast_aluminum": {
+    "name": "Small Cast Aluminum",
+    "alias": [],
+    "description": "Compatible with Terminal Blocks TF2, TG4, TH6. Dimensions 3.50\" X 3.25\"",
+    "image": "/images/heads/screwtop-small-cast-aluminum.png",
+    "parts": ["A5", "A6", "A7"],
+    "fields": {
+      "Conduit Connection": ["1/2\"", "3/4\"", "3/4\""],
+      "Instrument Connection": ["1/2\"", "1/2\"", "3/4\""]
+    }
+  },
+  "screwtop_stainless_steel": {
+    "name": "Stainless Steel",
+    "alias": [],
+    "description": "Compatible with Terminal Blocks TC2, TD4, TE6. Dimensions 3.62\" X 3.22\"",
+    "image": "/images/heads/stainless-steel.png",
+    "parts": ["S1", "S2", "S3"],
+    "fields": {
+      "Conduit Connection": ["1/2\"", "3/4\"", "3/4\""],
+      "Instrument Connection": ["1/2\"", "1/2\"", "3/4\""]
+    }
+  },
+  "screwtop_polypropylene_white": {
+    "name": "Polypropylene White",
+    "alias": [],
+    "description": "Compatible with Terminal Blocks TA2, TB4, TH6. Dimensions 3.70\" X 3.10\"",
+    "image": "",
+    "parts": ["P3"],
+    "fields": {
+      "Conduit Connection": ["3/4\""],
+      "Instrument Connection": ["1/2\""]
+    }
+  },
+  "screwtop_polypropylene_black": {
+    "name": "Polypropylene Black",
+    "alias": [],
+    "description": "Compatible with Terminal Blocks TA2, TB4, TH6. Dimensions 3.70\" X 3.10\"",
+    "image": "",
+    "parts": ["P2", "P4"],
+    "fields": {
+      "Conduit Connection": ["1/2\"", "3/4\""],
+      "Instrument Connection": ["1/2\"", "1/2\""]
+    }
+  },
+  "fliptop_polypropylene_white": {
+    "name": "Polypropylene White",
+    "alias": [],
+    "description": "Compatible with Terminal Blocks TF2, TG4, TH6. Dimensions 3.35\" X 3.40\"",
+    "image": "/images/heads/fliptop-poly-white.png",
+    "parts": ["H1", "H2"],
+    "fields": {
+      "Conduit Connection": ["3/4\"", "3/4\""],
+      "Instrument Connection": ["1/2\"", "3/4\""]
+    }
+  },
+  "fliptop_polypropylene_black": {
+    "name": "Polypropylene Black",
+    "alias": [],
+    "description": "Compatible with Terminal Blocks TF2, TG4, TH6. Dimensions 3.35\" X 3.40\"",
+    "image": "",
+    "parts": ["H3", "H4"],
+    "fields": {
+      "Conduit Connection": ["3/4\"", "3/4\""],
+      "Instrument Connection": ["1/2\"", "3/4\""]
+    }
+  },
+  "fliptop_aluminum": {
+    "name": "Aluminum",
+    "alias": [],
+    "description": "Compatible with Terminal Blocks TF2, TG4, TH6. Dimensions 3.35\" X 3.40\"",
+    "image": "/images/heads/fliptop-aluminum.png",
+    "parts": ["H5", "H6", "H7"],
+    "fields": {
+      "Conduit Connection": ["1/2\"", "3/4\"", "3/4\""],
+      "Instrument Connection": ["1/2\"", "1/2\"", "3/4\""]
+    }
+  },
+  "explosion_proof_dome_top": {
+    "name": "Dome Top",
+    "alias": [],
+    "description": "Aluminum. Compatible with Terminal Blocks TA2, TB4, TH6, BB4, BB6. Dimensions 3.12\" X 4.0\"",
+    "image": "",
+    "parts": ["EB1", "EB2", "EB3"],
+    "fields": {
+      "Conduit Connection": ["1/2\"", "3/4\"", "3/4\""],
+      "Instrument Connection": ["1/2\"", "1/2\"", "3/4\""]
+    }
+  },
+  "explosion_proof_flat_top": {
+    "name": "Flat Top",
+    "alias": [],
+    "description": "Aluminum. Compatible with Terminal Blocks TA2, TB4, TH6. Dimensions 3.15\" X 3.0\"",
+    "image": "/images/heads/explosive-steel-flat.png",
+    "parts": ["EB4", "EB5", "EB6", "EB7"],
+    "fields": {
+      "Conduit Connection": ["1/2\"", "3/4\"", "1\"", "3/4\""],
+      "Instrument Connection": ["1/2\"", "3/4\"", "1\"", "1/2\""]
+    }
+  },
+  "explosion_proof_aluminum": {
+    "name": "Aluminum",
+    "alias": [],
+    "description": "Compatible with Terminal Blocks TC2, TD4, TE6. Dimensions 3.9\" X 3.32\"",
+    "image": "/images/heads/explosive-steel-aluminum.png",
+    "parts": ["F1", "F2", "F3", "F4", "FA1", "FA2", "FA3", "FA4"],
+    "fields": {
+      "Conduit Connection": ["1/2\"", "3/4\"", "3/4\"", "M20 X 1.5\"", "1/2\"", "3/4\"", "3/4\"", "M20 X 1.5\""],
+      "Instrument Connection": ["1/2\"", "1/2\"", "3/4\"", "1/2\"", "1/2\"", "1/2\"", "3/4\"", "1/2\""],
+      "Certification": ["FM/CSA", "FM/CSA", "FM/CSA", "FM/CSA", "Atex", "Atex", "Atex", "Atex"]
+    }
+  },
+  "explosion_proof_stainless": {
+    "name": "Stainless Steel",
+    "alias": [],
+    "description": "Compatible with Terminal Blocks TC2, TD4, TE6",
+    "image": "/images/heads/explosive-steel.png",
+    "parts": ["F5", "F6", "F7", "F8", "FA5", "FA6", "FA7", "FA8"],
+    "fields": {
+      "Conduit Connection": ["1/2\"", "3/4\"", "3/4\"", "M20 X 1.5\"", "1/2\"", "3/4\"", "3/4\"", "M20 X 1.5\""],
+      "Instrument Connection": ["1/2\"", "1/2\"", "3/4\"", "1/2\"", "1/2\"", "1/2\"", "3/4\"", "1/2\""],
+      "Certification": ["FM/CSA", "FM/CSA", "FM/CSA", "FM/CSA", "Atex", "Atex", "Atex", "Atex"]
+    }
+  },
+  "buz_dome": {
+    "name": "Buz Dome",
+    "alias": [],
+    "description": "Consult TMS",
+    "image": "/images/heads/buz-dome.png",
+    "parts": [],
+    "fields": {
+      "Conduit Connection": [],
+      "Instrument Connection": []
+    }
+  }
+}

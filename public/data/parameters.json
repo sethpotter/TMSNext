@@ -1,0 +1,440 @@
+{
+  "sheath_material": {
+    "name": "Sheath Material",
+    "alias": [],
+    "description": "",
+    "type": "dictionary",
+    "value": {
+      "304SS": "P",
+      "316SS": "R",
+      "INCONEL 600": "J",
+      "310SS": "Q",
+      "Other": "X"
+    }
+  },
+  "sheath_diameter": {
+    "name": "Sheath Diameter",
+    "alias": [],
+    "description": "",
+    "type": "dictionary",
+    "value": {
+      ".062 (1/16\")": "1",
+      ".125 (1/8\")": "2",
+      ".188 (3/16\")": "3",
+      ".250 (1/4\")": "4",
+      ".313 (5/16\")": "5",
+      ".375 (3/8\")": "6"
+    }
+  },
+  "thermocouple_calibration_type": {
+    "name": "Thermocouple Calibration Type",
+    "alias": [],
+    "description": "",
+    "type": "dictionary",
+    "value": {
+      "Single Iron/Constantan": "J",
+      "Single Chromel/Alumel": "K",
+      "Single Chromel/Constantan": "E",
+      "Single Copper/Constantan": "T",
+      "Single Platinum/Platinum 13% Rhodium": "R",
+      "Single Platinum/Platinum 10% Rhodium": "S",
+      "Dual Iron/Constantan": "2J",
+      "Dual Chromel/Alumel": "2K",
+      "Dual Chromel/Constantan": "2E",
+      "Dual Copper/Constantan": "2T",
+      "Dual Platinum/Platinum 13% Rhodium": "2R",
+      "Dual Platinum/Platinum 10% Rhodium": "2S",
+      "Single Platinum 30% Rhodium/Platinum 6% Rhodium": "B",
+      "Single (W5Re) Tungsten 5% Rhenium/(W26Re) Tungsten 26% Rhenium": "C"
+    }
+  },
+  "thermocouple_calibration_type_beaded": {
+    "name": "Thermocouple Calibration Type",
+    "alias": [],
+    "description": "",
+    "type": "dictionary",
+    "value": {
+      "Single Iron/Constantan": "J",
+      "Single Chromel/Alumel": "K",
+      "Single Chromel/Constantan": "E",
+      "Single Copper/Constantan": "T",
+      "Dual Iron/Constantan": "2J",
+      "Dual Chromel/Alumel": "2K",
+      "Dual Chromel/Constantan": "2E",
+      "Dual Copper/Constantan": "2T"
+    }
+  },
+  "thermocouple_calibration_type_noble": {
+    "name": "Thermocouple Calibration Type",
+    "alias": [],
+    "description": "",
+    "type": "dictionary",
+    "value": {
+      "Single Platinum/Platinum 13% Rhodium": "R",
+      "Single Platinum/Platinum 10% Rhodium": "S",
+      "Single Platinum 30% Rhodium/Platinum 6% Rhodium": "B",
+      "Single (W5Re) Tungsten 5% Rhenium/(W26Re) Tungsten 26% Rhenium": "C"
+    }
+  },
+  "hot_junction": {
+    "name": "Hot Junction",
+    "alias": [],
+    "description": "",
+    "type": "dictionary",
+    "value": {
+      "Grounded": "G",
+      "Ungrounded": "U",
+      "Ungrounded Isolated (Dual)": "UI",
+      "Exposed": "E",
+      "Grounded With Weld Pad": "GP",
+      "Ungrounded With Weld Pad": "UP"
+    }
+  },
+  "sheath_length": {
+    "name": "Sheath Length",
+    "alias": [],
+    "description": "",
+    "type": "double",
+    "value": ""
+  },
+  "lead_insulation": {
+    "name": "Lead Insulation",
+    "alias": [],
+    "description": "",
+    "type": "custom",
+    "value": {
+      "PVC-Solid": "PP",
+      "Fiberglass-Solid": "GG",
+      "Teflon-Solid": "TT",
+      "PVC Stranded": "PPST",
+      "Teflon Stranded": "TTST",
+      "Fiberglass Stranded": "GGST",
+      "PVC Shielded": "PPSHD",
+      "PVC W/SS Overbraid": "PPSB",
+      "Fiberglass W/SS Overbraid": "GGSB",
+      "Other": "X"
+    }
+  },
+  "lead_wire_gauge": {
+    "name": "Lead Wire Gauge",
+    "alias": [],
+    "description": "",
+    "type": "dictionary",
+    "value": {
+      "8": "8",
+      "14": "14",
+      "20": "20",
+      "24": "24"
+    }
+  },
+  "lead_length": {
+    "name": "Lead Length",
+    "alias": [],
+    "description": "",
+    "type": "double",
+    "value": ""
+  },
+  "armor_material_and_length": {
+    "name": "Armor Material And Length",
+    "alias": [],
+    "description": "",
+    "type": "custom",
+    "value": {
+      "Stainless Steel": "SH",
+      "PVC Coated Galvanized": "PH",
+      "PVC Coated Stainless Steel": "PSH",
+      "Teflon Coated Stainless Steel": "TH"
+    }
+  },
+  "female_jack": {
+    "name": "Female Jack",
+    "alias": [],
+    "description": "",
+    "type": "checkbox",
+    "value": "FJ"
+  },
+  "ceramic_insulator_length": {
+    "name": "Ceramic Insulator Length",
+    "alias": [],
+    "description": "",
+    "type": "double",
+    "value": ""
+  },
+  "material_code": {
+    "name": "Material Code",
+    "alias": [],
+    "description": "",
+    "type": "dictionary",
+    "value": {
+      "304SS": "P",
+      "316SS": "R",
+      "310SS": "Q",
+      "321SS": "U",
+      "347SS": "D",
+      "304LSS": "E",
+      "316LSS": "G",
+      "410SS": "V",
+      "446SS": "Y",
+      "Alloy 20": "C",
+      "HR160": "W",
+      "Hastelloy B": "HB",
+      "Hastelloy C": "HC",
+      "Incoloy 800": "F",
+      "Inconel 600": "J",
+      "Monel 400": "L",
+      "Monel 500": "M",
+      "Nickel 200": "N",
+      "F11": "A",
+      "F22": "B",
+      "Carbon Steel": "CS",
+      "A-105": "T",
+      "Brass": "BR",
+      "Titanium": "TI",
+      "Other": "X"
+    }
+  },
+  "u_length": {
+    "name": "U Length",
+    "alias": [],
+    "description": "",
+    "type": "double",
+    "value": ""
+  },
+  "l_length": {
+    "name": "L Length",
+    "alias": [],
+    "description": "",
+    "type": "double",
+    "value": ""
+  },
+  "t_length": {
+    "name": "T Length",
+    "alias": [],
+    "description": "",
+    "type": "double",
+    "value": ""
+  },
+  "flange_code": {
+    "name": "Flange Code",
+    "alias": [],
+    "description": "",
+    "type": "custom",
+    "value": {
+      "Size": {
+        "3/4\"": "A",
+        "1\"": "B",
+        "1 1/2\"": "C",
+        "2\"": "D",
+        "2 1/2\"": "E",
+        "3\"": "G",
+        "4\"": "H",
+        "4 1/2\"": "K",
+        "5\"": "L",
+        "5 1/2\"": "M",
+        "6\"": "N"
+      },
+      "Rating": {
+        "150 LB": "U",
+        "300 LB": "V",
+        "600 LB": "W",
+        "900 LB": "X",
+        "1500 LB": "Y",
+        "2500 LB": "Z",
+        "Other": "?"
+      },
+      "Facing": {
+        "Flat Face": "F",
+        "Raised Face": "R",
+        "Ring Joint": "J"
+      }
+    }
+  },
+  "full_penetrate_weld": {
+    "name": "Full Penetrate Weld",
+    "alias": [],
+    "description": "",
+    "type": "checkbox",
+    "value": "FP"
+  },
+  "flange_smooth_finish": {
+    "name": "Smooth Finish",
+    "alias": [],
+    "description": "",
+    "type": "checkbox",
+    "value": "SF"
+  },
+  "dash_number": {
+    "name": "Dash Number",
+    "alias": [],
+    "description": "Part Code for Sample Probes",
+    "type": "elimination_table",
+    "value": {
+      "keys": ["1", "2", "3", "4", "5", "6"],
+      "fields": {
+        "I NPT": ["1/4\"", "1/4\"", "1/4\"", "1/2\"", "1/2\"", "1/2\""],
+        "H": ["7/8\"", "1 1/8\"", "1 3/8\"", "1 1/8\"", "1 1/8\"", "1 3/8\""],
+        "C NPT": ["1/2\"", "3/4\"", "1\"", "1/2\"", "3/4\"", "1\""]
+      }
+    }
+  },
+  "angle": {
+    "name": "Angle",
+    "alias": [],
+    "description": "",
+    "type": "dictionary",
+    "value": {
+      "45 deg": "7",
+      "30 deg": "8",
+      "No angle": "9"
+    }
+  },
+  "lagging_length": {
+    "name": "Lagging Length",
+    "alias": [],
+    "description": "For Type 1100",
+    "type": "double",
+    "value": ""
+  },
+  "process_connection_1100": {
+    "name": "Process Connection",
+    "alias": [],
+    "description": "For Type 1100",
+    "type": "dictionary",
+    "value": {
+      "3/4\"": "3/4",
+      "1\"": "1"
+    }
+  },
+  "process_connection_t100s": {
+    "name": "Process Connection",
+    "alias": [],
+    "description": "For Type T100s",
+    "type": "dictionary",
+    "value": {
+      "1/2\"": "1/2",
+      "3/4\"": "3/4",
+      "1\"": "1"
+    }
+  },
+  "tube_size": {
+    "name": "Tube Size",
+    "alias": [],
+    "description": "Tube Size for Ceramic Protection Tubes",
+    "type": "elimination_table",
+    "value": {
+      "keys": ["1", "2", "3"],
+      "fields": {
+        "Inner Diameter": [".250", ".375", ".437"],
+        "Outer Diameter": [".375", ".500", ".688"]
+      }
+    }
+  },
+  "t200_lag": {
+    "name": "Type 200 Lag",
+    "alias": [],
+    "description": "",
+    "type": "checkbox",
+    "value": "T2"
+  },
+  "sensor_type": {
+    "name": "Sensor Type",
+    "alias": [],
+    "description": "",
+    "type": "dictionary",
+    "value": {
+      "100 OHM Platinum": "P",
+      "200 OHM Platinum": "Q",
+      "500 OHM Platinum": "R",
+      "1000 OHM Platinum": "S",
+      "100 OHM Nickel": "T",
+      "120 OHM Nickel": "U",
+      "10 OHM Copper": "V",
+      "100 OHM Copper": "W",
+      "Other": "X"
+    }
+  },
+  "number_of_wires": {
+    "name": "Number of Wires",
+    "alias": [],
+    "description": "",
+    "type": "dictionary",
+    "value": {
+      "2 (4 if Dual)": "2",
+      "3 (6 if Dual)": "3",
+      "4 (8 if Dual)": "4"
+    }
+  },
+  "temp_range": {
+    "name": "Max Temperature Range",
+    "alias": [],
+    "description": "",
+    "type": "dictionary",
+    "value": {
+      "362 F": "NOCODE",
+      "962 F": "HT",
+      "1112 F": "HP"
+    }
+  },
+  "lead_wire_gauge_rtd": {
+    "name": "Lead Wire Gauge",
+    "alias": [],
+    "description": "",
+    "type": "value",
+    "value": "24"
+  },
+  "nipple": {
+    "name": "Nipple",
+    "alias": [],
+    "description": "",
+    "type": "dictionary",
+    "value": {
+      "Nipple Only": "N",
+      "Nipple-Union-Nipple": "U",
+      "Union-Nipple": "UN",
+      "Coupling-Nipple": "CN"
+    }
+  },
+  "extension_length": {
+    "name": "Extension Length",
+    "alias": [],
+    "description": "",
+    "type": "double",
+    "value": ""
+  },
+  "extension_material": {
+    "name": "Extension Material",
+    "alias": [],
+    "description": "",
+    "type": "dictionary",
+    "value": {
+      "Galvanized Steel": "NOCODE",
+      "Black Iron": "B",
+      "304SS": "SS",
+      "316SS": "R",
+      "Other": "X"
+    }
+  },
+  "extension_thread_size": {
+    "name": "Extension Thread Size",
+    "alias": [],
+    "description": "",
+    "type": "dictionary",
+    "value": {
+      "1/2 \"": "1/2\" NPT"
+    }
+  },
+  "miniature_barrier_block": {
+    "name": "Is Miniature",
+    "alias": [],
+    "description": "",
+    "type": "checkbox",
+    "value": "A"
+  },
+  "teflon_ferrule": {
+    "name": "Add Teflon Ferrule",
+    "alias": [],
+    "description": "",
+    "type": "checkbox",
+    "value": "T"
+  }
+}

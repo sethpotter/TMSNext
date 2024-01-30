@@ -1,0 +1,221 @@
+{
+  "type_1": {
+    "name": "Type 1",
+    "alias": [
+      "Bare Lead"
+    ],
+    "description": "Bare Lead MgO Insulated Thermocouple With Color Coded Leads",
+    "image": "/images/thermocouples/drawings/type-1.png",
+    "code": "1",
+    "parameters": [
+      "sheath_material",
+      "sheath_diameter",
+      "thermocouple_calibration_type",
+      "hot_junction",
+      "sheath_length"
+    ]
+  },
+  "type_2": {
+    "name": "Type 2",
+    "alias": [
+      "20 AWG Extension Lead"
+    ],
+    "description": "MgO Insulated Thermocouple With 20 AWG Extension Lead",
+    "image": "/images/thermocouples/drawings/type-2.png",
+    "code": "2",
+    "parameters": [
+      "sheath_material",
+      "sheath_diameter",
+      "thermocouple_calibration_type",
+      "hot_junction",
+      "sheath_length",
+      "lead_insulation",
+      "lead_length"
+    ]
+  },
+  "type_3": {
+    "name": "Type 3",
+    "alias": [
+      "20 AWG Armored Lead"
+    ],
+    "description": "MgO Insulated Thermocouple With 20 AWG Armored Lead",
+    "image": "/images/thermocouples/drawings/type-3.png",
+    "code": "3",
+    "parameters": [
+      "sheath_material",
+      "sheath_diameter",
+      "thermocouple_calibration_type",
+      "hot_junction",
+      "sheath_length",
+      "armor_material_and_length",
+      "lead_insulation",
+      "lead_length"
+    ]
+  },
+  "type_4": {
+    "name": "Type 4",
+    "alias": [
+      "Double Threaded Fixed Fitting"
+    ],
+    "description": "MgO Insulated Thermocouple With Double Threaded Fixed Fitting",
+    "image": "/images/thermocouples/drawings/type-4.png",
+    "code": "4",
+    "parameters": [
+      "sheath_material",
+      "sheath_diameter",
+      "thermocouple_calibration_type",
+      "hot_junction",
+      "sheath_length"
+    ]
+  },
+  "type_s4": {
+    "name": "Type S4",
+    "alias": [
+      "Double Threaded Spring Load Bushing"
+    ],
+    "description": "MgO Insulated Thermocouple With Double Threaded Spring Load Bushing And Flexible Leads",
+    "image": "/images/thermocouples/drawings/type-4.png",
+    "code": "S4",
+    "parameters": [
+      "sheath_material",
+      "sheath_diameter",
+      "thermocouple_calibration_type",
+      "hot_junction",
+      "sheath_length"
+    ]
+  },
+  "type_5": {
+    "name": "Type 5",
+    "alias": [
+      "Fixed Fitting"
+    ],
+    "description": "MgO Insulated Thermocouple With Fixed Fitting",
+    "image": "/images/thermocouples/drawings/type-5.png",
+    "code": "5",
+    "parameters": [
+      "sheath_material",
+      "sheath_diameter",
+      "thermocouple_calibration_type",
+      "hot_junction",
+      "sheath_length"
+    ]
+  },
+  "type_6": {
+    "name": "Type 6",
+    "alias": [
+      "Spring Loaded"
+    ],
+    "description": "Spring Loaded MgO Insulated Thermocouple",
+    "image": "/images/thermocouples/drawings/type-6.png",
+    "code": "6",
+    "parameters": [
+      "sheath_material",
+      "sheath_diameter",
+      "thermocouple_calibration_type",
+      "hot_junction",
+      "sheath_length"
+    ]
+  },
+  "type_7": {
+    "name": "Type 7",
+    "alias": [
+      "20 AWG Extension Lead And Male Plug"
+    ],
+    "description": "MgO Insulated Thermocouple With 20 AWG Extension Lead And Male Plug",
+    "image": "/images/thermocouples/drawings/type-7.png",
+    "code": "7",
+    "parameters": [
+      "sheath_material",
+      "sheath_diameter",
+      "thermocouple_calibration_type",
+      "hot_junction",
+      "sheath_length",
+      "lead_insulation",
+      "lead_length",
+      "female_jack"
+    ]
+  },
+  "type_8": {
+    "name": "Type 8",
+    "alias": [
+      "Armored 20 AWG Extension Lead And Male Plug"
+    ],
+    "description": "MgO Insulated Thermocouple With Armored 20 AWG Extension Lead And Male Plug",
+    "image": "/images/thermocouples/drawings/type-8.png",
+    "code": "8",
+    "parameters": [
+      "sheath_material",
+      "sheath_diameter",
+      "thermocouple_calibration_type",
+      "hot_junction",
+      "sheath_length",
+      "armor_material_and_length",
+      "lead_insulation",
+      "lead_length",
+      "female_jack"
+    ]
+  },
+  "type_9": {
+    "name": "Type 9",
+    "alias": [
+      "Male Plug"
+    ],
+    "description": "MgO Insulated Thermocouple With Male Plug",
+    "image": "/images/thermocouples/drawings/type-9.png",
+    "code": "9",
+    "parameters": [
+      "sheath_material",
+      "sheath_diameter",
+      "thermocouple_calibration_type",
+      "hot_junction",
+      "sheath_length",
+      "female_jack"
+    ]
+  },
+  "type_10_beaded": {
+    "name": "Type 10 (Beaded)",
+    "alias": [
+      "Beaded"
+    ],
+    "description": "Beaded Thermocouple",
+    "image": "/images/thermocouples/drawings/type-10-1.png",
+    "code": "10",
+    "parameters": [
+      "thermocouple_calibration_type",
+      "lead_wire_gauge",
+      "ceramic_insulator_length"
+    ]
+  },
+  "type_10_noble": {
+    "name": "Type 10 (Noble Metal)",
+    "alias": [
+      "Noble Metal"
+    ],
+    "description": "Noble Metal Thermocouple",
+    "image": "/images/thermocouples/drawings/type-10-2.png",
+    "code": "10",
+    "parameters": [
+      "thermocouple_calibration_type",
+      "lead_wire_gauge",
+      "ceramic_insulator_length"
+    ]
+  },
+  "type_11": {
+    "name": "Type 11",
+    "alias": [],
+    "description": "",
+    "image": "/images/thermocouples/drawings/type-11.webp",
+    "code": "11",
+    "parameters": [
+      "sheath_material",
+      "sheath_diameter",
+      "thermocouple_calibration_type",
+      "hot_junction",
+      "sheath_length",
+      "sheath_length",
+      "armor_material_and_length",
+      "lead_insulation",
+      "lead_length"
+    ]
+  }
+}
