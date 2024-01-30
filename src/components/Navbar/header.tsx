@@ -76,7 +76,7 @@ export const Header = () => {
                             <FlexH flexGrow={0} gap={3}>
                                 <FlexV pl={4} justifyContent="center">
                                     <Link href="/">
-                                        <Image src="/logo.webp" alt="TMS Logo" width="104" height="100" />
+                                        <Image src="/images/logo.webp" alt="TMS Logo" width="104" height="100" />
                                     </Link>
                                 </FlexV>
                                 <FlexV color="#071f4e" justifyContent="center">
