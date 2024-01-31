@@ -16,7 +16,12 @@ export default function Page() {
         "Tubes No Bushing": "/catalog/thermowells/tubes-no-bushing",
         "Tubes Mounting Bushing": "/catalog/thermowells/tubes-mounting-bushing",
         "Tubes Flanged": "/catalog/thermowells/tubes-flanged",
-        "Socket Weld": "/catalog/thermowells/socket-weld"
+        "Socket Weld": "/catalog/thermowells/socket-weld",
+        "Weld In, Barstock": "/catalog/thermowells/weld-in-barstock",
+        "Flanged Barstock": "/catalog/thermowells/flanged-barstock",
+        "Flanged Tantalum Sleeve": "/catalog/thermowells/flanged-tantalum-sleeve",
+        "Ground Joint": "/catalog/thermowells/ground-joint",
+        "Van Stone": "/catalog/thermowells/van-stone"
     }
 
     return (

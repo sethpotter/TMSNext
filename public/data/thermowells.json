@@ -147,7 +147,7 @@
     "name": "Flanged Tantalum Sleeve",
     "alias": [],
     "description": "",
-    "image": "",
+    "image": "/images/thermowells/drawings/flanged-tantalum-sleeve.png",
     "parts": ["800", "801", "802", "803"],
     "fields": {
       "Bore": [".265", ".390", ".390", ".265"],
@@ -164,7 +164,7 @@
     "name": "Ground Joint",
     "alias": [],
     "description": "",
-    "image": "",
+    "image": "/images/thermowells/drawings/ground-joint.png",
     "parts": ["900", "901", "902", "903", "904"],
     "fields": {
       "Bore": [".515", ".390", ".265", ".515", ".390"],
@@ -183,7 +183,7 @@
     "name": "Van Stone",
     "alias": [],
     "description": "",
-    "image": "",
+    "image": "/images/thermowells/drawings/van-stone.png",
     "parts": ["1000", "1001", "1002", "1003"],
     "fields": {
       "Diameter \"F\"": ["2", "2", "2.875", "2.875"],
