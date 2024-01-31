@@ -26,7 +26,7 @@ export default function Page() {
                     <ListItem>Thermocouples</ListItem>
                     <ListItem>Thermocouple Assemblies</ListItem>
                     <ListItem>Thermowells</ListItem>
-                    <ListItem>RTD's (Resistance Temperature Detectors)</ListItem>
+                    <ListItem>RTDs (Resistance Temperature Detectors)</ListItem>
                     <ListItem>RTD Assemblies</ListItem>
                     <ListItem>Multi-point Thermocouples</ListItem>
                     <ListItem>Tubeskin Thermocouples</ListItem>

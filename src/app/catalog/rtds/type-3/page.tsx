@@ -41,10 +41,10 @@ export default function Page() {
         const armor_material_and_length = parameters["armor_material_and_length"];
         armor_material_and_length.name = "Armor"
         const lead_insulation = parameters["lead_insulation"];
-        lead_insulation.value = {
+        /*lead_insulation.value = {
             "Teflon": "TT",
             "Fiberglass": "GG"
-        };
+        };*/ // TODO
         const temp_range = parameters["temp_range"];
         return (
             <FlexH justifyContent="space-between">

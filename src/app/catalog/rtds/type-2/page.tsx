@@ -39,10 +39,10 @@ export default function Page() {
         const sheath_diameter = parameters["sheath_diameter"];
         const sheath_material = parameters["sheath_material"];
         const lead_insulation = parameters["lead_insulation"];
-        lead_insulation.value = {
+        /*lead_insulation.value = {
             "Teflon-Solid": "TT",
             "Fiberglass-Solid": "GG"
-        };
+        };*/ // TODO
         const temp_range = parameters["temp_range"];
         return (
             <FlexH justifyContent="space-between">
@@ -120,9 +120,9 @@ export default function Page() {
                         <br/>
                         * NOTE: For Smaller Diameter Sensors, Consult TMS.
                         <br/>
-                        ** NOTE: Sensors with Code "HT" will be provided with Fiberglass Leads.
+                        ** NOTE: Sensors with Code &qout;HT&qout; will be provided with Fiberglass Leads.
                         <br/>
-                        *** NOTE: Sensors with Code "HP" will be provided with Hard Packed RTD.
+                        *** NOTE: Sensors with Code &qout;HP&qout; will be provided with Hard Packed RTD.
                         <br/>
                         All HP sensors provided with transition.
                         <br/>

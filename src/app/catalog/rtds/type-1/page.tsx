@@ -112,9 +112,9 @@ export default function Page() {
                         <br/>
                         * NOTE: For Smaller Diameter Sensors, Consult TMS.
                         <br/>
-                        ** NOTE: Sensors with Code "HT" will be provided with Fiberglass Leads.
+                        ** NOTE: Sensors with Code &ldquo;HT&ldquo; will be provided with Fiberglass Leads.
                         <br/>
-                        *** NOTE: Sensors with Code "HP" will be provided with Hard Packed RTD.
+                        *** NOTE: Sensors with Code &ldquo;HP&ldquo; will be provided with Hard Packed RTD.
                         <br/>
                         All HP sensors provided with transition.
                         <br/>
