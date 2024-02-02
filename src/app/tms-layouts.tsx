@@ -70,7 +70,7 @@ const BrowserButtons = () => {
     );
 }
 
-const TMSPage = ({children, useIcon=true, ...rest}: any) => {
+const TMSPage = ({children, ...rest}: any) => {
     return (
         <FlexH my={3} justifyContent="center">
             <FlexH gap={5} justifyContent="center">
@@ -81,14 +81,6 @@ const TMSPage = ({children, useIcon=true, ...rest}: any) => {
                         <Text m={2.5} color="#444444" fontWeight="350" fontSize="17px" lineHeight="20px" letterSpacing="-0.5px">
                             {children}
                         </Text>
-                        {
-                            (useIcon) ?
-                                <FlexH p={4} justifyContent="center" alignItems="end">
-                                    <Image style={{filter: "contrast(110%)"}} src="/images/websitePrep.png" alt="" width="134" height="174" />
-                                </FlexH>
-                                :
-                                <></>
-                        }
                     </FlexV>
                     <Box p={1} pt={4}>
                         <Image style={{borderRadius: "10px"}} src="/images/qualityProducts.webp" width="648" height="118" />

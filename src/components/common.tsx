@@ -1,4 +1,4 @@
-import {Flex, Table, TableContainer, Tbody, Td, Th, Thead, Tr} from "@chakra-ui/react";
+import {Flex, Table, TableContainer, Tbody, Td, Text, Th, Thead, Tr} from "@chakra-ui/react";
 
 const FlexH = ({children, ...rest}: any) => {
     return (
@@ -64,8 +64,36 @@ const EasyTable = ({table, ...rest}: any) => {
     );
 }
 
+const KeyValues = ({header, pairs, ...rest}: any) => {
+
+    const pairsHtml = Object.keys(pairs).map((key) => {
+        const value = pairs[key as keyof typeof pairs];
+        return (
+            <Text {...rest} key={"param" + key}><b>{value}</b> - {key}</Text>
+        );
+    });
+
+    if(header) {
+        return (
+            <FlexV flexGrow={0}>
+                <Text {...rest} fontWeight="600">{header}</Text>
+                <FlexV flexGrow={0}>
+                    {pairsHtml}
+                </FlexV>
+            </FlexV>
+        );
+    } else {
+        return (
+            <FlexV flexGrow={0}>
+                {pairsHtml}
+            </FlexV>
+        );
+    }
+}
+
 export {
     FlexH,
     FlexV,
-    EasyTable
+    EasyTable,
+    KeyValues
 }

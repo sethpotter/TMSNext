@@ -80,13 +80,13 @@ export const Header = () => {
                                     </Link>
                                 </FlexV>
                                 <FlexV color="#071f4e" justifyContent="center">
-                                    <Text fontSize="30px">Temperature Measurement Systems</Text>
+                                    <Text fontSize="30px">Temperature Measurement Systems, Inc</Text>
                                     <Text fontSize="16px">Quality Thermocouples, Designed at Competitive Prices</Text>
                                 </FlexV>
                             </FlexH>
                             <FlexV pt={3} color="#071f4e" justifyContent="center" alignItems="end">
                                 <Text>(903) 489-1405</Text>
-                                <Text>Toll Free (800) 967-6498</Text>
+                                <Text>Fax (903) 489-1794</Text>
                             </FlexV>
                         </FlexH>
                     </FlexV>

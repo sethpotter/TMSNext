@@ -2,15 +2,15 @@ const routes = {
     "Home": "/",
     "Configure": "/configure",
     "Catalog": ["/catalog", {
-        "Materials": "/materials",
-        "Terminal Heads": "/catalog/terminal-heads",
         "Thermocouples": "/catalog/thermocouples",
         "RTDs": "/catalog/rtds",
-        "Thermowells": "/catalog/thermowells",
+        "Terminal Heads": "/catalog/terminal-heads",
         "Terminal Blocks": "/catalog/terminal-blocks",
+        "Extensions": "/catalog/extensions",
+        "Thermowells": "/catalog/thermowells",
+        "Materials": "/materials",
         "Wire": "/catalog/wire",
-        "Fittings & Hardware": "/catalog/fittings-hardware",
-        "Transmitters": "/catalog/transmitters"
+        "Fittings & Hardware": "/catalog/fittings-hardware"
     }],
     "Contact": "/contact",
     "About": "/about",
