@@ -66,7 +66,7 @@ export default function Page() {
                         <Text>
                             Create a Flange Code using the table above.
                             <br/>
-                            Example: <b>BVF</b> - Size: 1", Rating: 300 LB, Facing: Flat Face
+                            Example: <b>BVF</b> - Size: 1&qout;, Rating: 300 LB, Facing: Flat Face
                         </Text>
                     </FlexV>
                 </FlexV>
@@ -135,9 +135,9 @@ export default function Page() {
                             {getParameters()}
                             <br/>
                             <Text>
-                                **Add "FP" After Flange Facing For Full Penetrant Weld.
+                                **Add &qout;FP&qout; After Flange Facing For Full Penetrant Weld.
                                 <br/>
-                                **Add "SF" After Flange Facing For Smooth Finish 125-250 RMS.
+                                **Add &qout;SF&qout; After Flange Facing For Smooth Finish 125-250 RMS.
                                 <br/>
                                 **Other Sizes Available. Consult TMS.
                             </Text>

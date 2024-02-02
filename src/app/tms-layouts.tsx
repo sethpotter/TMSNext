@@ -92,7 +92,57 @@ const TMSPage = ({children, ...rest}: any) => {
     );
 }
 
+const SensorCatalogTemplate = ({children, sensor, exampleOrder, ...rest}: any) => {
+    return (
+        <FlexV my={10} alignItems="center">
+            <FlexV maxW="1000px">
+                <FlexH bg="#071f4e">
+                    <FlexV py={2} px={4}>
+                        <Text fontSize="28px" color="white">{sensor.name}</Text>
+                        <Text fontSize="20px" color="blue.100">{sensor.description}</Text>
+                    </FlexV>
+                </FlexH>
+                <FlexH p={4} justifyContent="space-between" alignItems="center" gap={3}>
+                    <Image width="650px"
+                           height="100px"
+                           src={sensor.image}
+                           style={{filter: "contrast(90%) brightness(125%) saturate(75%)"}}
+                           alt=""
+                           mt={2}
+                    />
+                    <FlexV justifyContent="center" alignItems="center" textAlign="center">
+                        <Text><b>Example Order</b></Text>
+                        <Text fontSize="20px">
+                            {
+                                exampleOrder.split("-").map((part: string) =>
+                                    <u key={exampleOrder + "-" + part}>{part}</u>
+                                ).reduce((prev: any, curr: any) => [prev, ' - ', curr])
+                            }
+                        </Text>
+                        <Text>The dashes <b>—</b> separate the part parameters.</Text>
+                    </FlexV>
+                </FlexH>
+                <FlexH alignItems="center" mb={2}>
+                    {
+                        (sensor.code) ?
+                            <Text fontSize="18px" fontWeight="600" mr={3}>Design Type: {sensor.code}</Text>
+                            :
+                            <></>
+                    }
+                    <FlexH>
+                        <Divider borderWidth="1px" borderColor="black" />
+                    </FlexH>
+                </FlexH>
+                <FlexV>
+                    {children}
+                </FlexV>
+            </FlexV>
+        </FlexV>
+    );
+}
+
 export {
     BrowserButtons,
-    TMSPage
+    TMSPage,
+    SensorCatalogTemplate
 }

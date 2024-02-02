@@ -64,7 +64,11 @@ const EasyTable = ({table, ...rest}: any) => {
     );
 }
 
-const KeyValues = ({header, pairs, ...rest}: any) => {
+const KeyValue = ({children, pairs, ...rest}: any) => {
+
+    if(!pairs) {
+        return <Text>{pairs}</Text>
+    }
 
     const pairsHtml = Object.keys(pairs).map((key) => {
         const value = pairs[key as keyof typeof pairs];
@@ -73,10 +77,10 @@ const KeyValues = ({header, pairs, ...rest}: any) => {
         );
     });
 
-    if(header) {
+    if(children) {
         return (
             <FlexV flexGrow={0}>
-                <Text {...rest} fontWeight="600">{header}</Text>
+                <Text {...rest} fontWeight="600">{children}</Text>
                 <FlexV flexGrow={0}>
                     {pairsHtml}
                 </FlexV>
@@ -91,9 +95,14 @@ const KeyValues = ({header, pairs, ...rest}: any) => {
     }
 }
 
+const Parameter = (parameter: any) => {
+    return <KeyValue pairs={parameter.value}>{parameter.name}</KeyValue>
+}
+
 export {
     FlexH,
     FlexV,
     EasyTable,
-    KeyValues
+    KeyValue,
+    Parameter
 }

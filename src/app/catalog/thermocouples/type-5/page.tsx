@@ -57,13 +57,13 @@ export default function Page() {
                         </Text>
                     </FlexV>
                     <Text>
-                        **1/2" NPT is our standard fitting.
+                        **1/2&qout; NPT is our standard fitting.
                         <br/>
                         Other options available:
                         <br/>
-                        3/4" NPT
+                        3/4&qout; NPT
                         <br/>
-                        1" NPT
+                        1&qout; NPT
                     </Text>
                 </FlexV>
             </FlexH>
