@@ -33,12 +33,37 @@ export default function Page() {
         )
     }
 
+    const displayDoubleOptions = (parameter: any) => {
+        const mapOptions = (options: {}) => {
+            return Object.keys(options).map((key) => {
+                const value = options[key as keyof typeof options];
+                return (
+                    <Text key={"param" + key}><b>{value}</b> - {key}</Text>
+                );
+            });
+        }
+        return (
+            <FlexV flexGrow={0}>
+                <Text fontWeight="600">{parameter.name}</Text>
+                <FlexH>
+                    {
+                        Object.keys(parameter.value).map((obj) => {
+                            return (
+                                <FlexV flexGrow={0}>
+                                    {mapOptions(obj)}
+                                </FlexV>
+                            )
+                        })
+                    }
+                </FlexH>
+            </FlexV>
+        );
+    }
+
     const getParameters = () => {
         const sensor_type = parameters["sensor_type"];
         const number_of_wires = parameters["number_of_wires"];
         const sheath_diameter = parameters["sheath_diameter"];
-        delete sheath_diameter.value[".062 (1/16\")"];
-        delete sheath_diameter.value[".375 (3/8\")"];
         const sheath_material = parameters["sheath_material"];
         const temp_range = parameters["temp_range"];
         return (

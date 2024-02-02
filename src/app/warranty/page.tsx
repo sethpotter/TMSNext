@@ -7,7 +7,7 @@ export default function Page() {
     return (
         <>
             <Header/>
-            <TMSPage useIcon={false}>
+            <TMSPage>
                 <Text as="b">
                     Warranty&nbsp;
                 </Text>

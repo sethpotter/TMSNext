@@ -340,30 +340,46 @@
     "name": "Sensor Type",
     "alias": [],
     "description": "",
-    "type": "dictionary",
+    "type": "custom",
     "value": {
-      "100 OHM Platinum": "P",
-      "200 OHM Platinum": "Q",
-      "500 OHM Platinum": "R",
-      "1000 OHM Platinum": "S",
-      "100 OHM Nickel": "T",
-      "120 OHM Nickel": "U",
-      "10 OHM Copper": "V",
-      "100 OHM Copper": "W",
-      "Other": "X"
+      "Single": {
+        "100 OHM Platinum": "P",
+        "200 OHM Platinum": "Q",
+        "500 OHM Platinum": "R",
+        "1000 OHM Platinum": "S",
+        "100 OHM Nickel": "T",
+        "120 OHM Nickel": "U",
+        "10 OHM Copper": "V",
+        "100 OHM Copper": "W"
+      },
+      "Dual": {
+        "100 OHM Platinum": "2P",
+        "200 OHM Platinum": "2Q",
+        "500 OHM Platinum": "2R",
+        "1000 OHM Platinum": "2S",
+        "100 OHM Nickel": "2T",
+        "120 OHM Nickel": "2U",
+        "10 OHM Copper": "2V",
+        "100 OHM Copper": "2W"
+      }
     }
   },
   "number_of_wires": {
     "name": "Number of Wires",
     "alias": [],
     "description": "",
-    "type": "dictionary",
+    "type": "custom",
     "value": {
-      "2": "2",
-      "3": "3",
-      "4 (Single/Dual)": "4",
-      "6 (Dual)": "6",
-      "8 (Dual)": "8"
+      "Single": {
+        "2": "2",
+        "3": "3",
+        "4": "4"
+      },
+      "Dual": {
+        "4": "4",
+        "6": "6",
+        "8": "8"
+      }
     }
   },
   "temp_range": {
