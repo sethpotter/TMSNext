@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Temperature Measurement Systems, Inc.
 
-## Getting Started
+### Public Statement and Terms of Use
 
-First, run the development server:
+This repository serves as a public documentation platform for content related to Temperature Measurement Systems, 
+including the showcase of technology utilized on the company's website. All assets not governed by public licensing 
+are proprietary assets created by and exclusively used by Temperature Measurement Systems are protected by 
+copyright and may be subject to legal action in case of unauthorized use or abuse.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Users accessing this repository are advised to adhere to any applicable licensing terms associated with the content 
+provided herein. Any unauthorized use or reproduction of proprietary assets belonging to 
+Temperature Measurement Systems is strictly prohibited and may result in legal action.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Distribution of these proprietary assets for non-commercial purposes is permitted, provided proper 
+attribution to Temperature Measurement Systems is given. It is explicitly prohibited to use these assets in 
+commercial applications, including but not limited to products, services, or advertisements, without express written 
+permission from Temperature Measurement Systems. The distribution must not be for commercial gain or profit in 
+any form. The distributed assets must not be modified or altered in any way that could misrepresent or damage the 
+reputation of Temperature Measurement Systems. 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Temperature Measurement Systems reserves the right to revoke permission 
+for any distribution at any time and for any reason, without prior notice.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Copyright © 2024 Temperature Measurement Systems. All rights reserved.
 
-## Learn More
+### About
 
-To learn more about Next.js, take a look at the following resources:
+This is a website created for Temperature Measurement Systems, Inc. a temperature sensor manufacturer based in 
+Malakoff, Texas.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+It contains information pertaining to TMS and instructions for creating the part codes used in TMS quotes and 
+manufacturing.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Any information on the site is subject to be changed.
 
-## Deploy on Vercel
+### Tools Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+You can find all the tools used in this project as they are all publicly available.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* [Next.js](https://nextjs.org/)
+* [TypeScript](https://www.typescriptlang.org/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [Chakra UI](https://chakra-ui.com/)
+
+### Questions?
+
+If you have any questions regarding the development of this site, or how to get in touch with the person who made it.
+
+You can contact them at their personal email at - **seth.mgma@gmail.com**
+
+If you have any questions regarding the business
+
+You can contact the sales team for Temperature Measurement Systems at - **sales@tms80.com**
+
+### Pictures
+
+![Home](showcase/home.png)
+
+![Terminal Heads](showcase/terminal-heads.png)
+
+![Straight Barstock Thermowell](showcase/straight-barstock.png)
